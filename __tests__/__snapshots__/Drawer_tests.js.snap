@@ -1,0 +1,1395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Drawer component renders as expected when token not yet provided 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../static/fondo2.png",
+        }
+      }
+      style={
+        Object {
+          "height": 150,
+          "marginBottom": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderRadius": 40,
+            "elevation": 8,
+            "height": 80,
+            "margin": 12,
+            "marginBottom": 9,
+            "marginTop": 18,
+            "overflow": "hidden",
+            "width": 80,
+          }
+        }
+      >
+        <View />
+      </View>
+      <View />
+    </ImageBackground>
+    <ScrollViewMock>
+      <View
+        style={
+          Object {
+            "marginLeft": 15,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="calendar"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Esdeveniments      
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="mortar-board"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Gestor de Notes     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="desktop"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Disponibilitat Labs     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="book"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Sales Bibl. BRGF     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="calendar-o"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Cerca Aules Lliures     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="eye"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Places Matrícula     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="plane"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Programes de Mobilitat     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="blackboard"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Lectures TFG i TFM     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="external-link"
+              size={25}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Enllaços d'Interès     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="bug"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Feedback & Bugs     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="gear"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Configuració     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="log-out"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Log Out     
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ScrollViewMock>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "bottom": 10,
+          "position": "absolute",
+          "right": 20,
+        }
+      }
+    >
+      v1.5. 
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Testing Drawer component renders as expected when token provided 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../static/fondo2.png",
+        }
+      }
+      style={
+        Object {
+          "height": 150,
+          "marginBottom": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderRadius": 40,
+            "elevation": 8,
+            "height": 80,
+            "margin": 12,
+            "marginBottom": 9,
+            "marginTop": 18,
+            "overflow": "hidden",
+            "width": 80,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "headers": Object {
+                "Accept-Language": "ca",
+                "Authorization": "Bearer aToken",
+              },
+              "uri": "https://api.fib.upc.edu/v2/jo/foto.jpg",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 40,
+              "height": 80,
+              "resizeMode": "cover",
+              "width": 80,
+            }
+          }
+        />
+      </View>
+      <View />
+    </ImageBackground>
+    <ScrollViewMock>
+      <View
+        style={
+          Object {
+            "marginLeft": 15,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="calendar"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Esdeveniments      
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="mortar-board"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Gestor de Notes     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="desktop"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Disponibilitat Labs     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="book"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Sales Bibl. BRGF     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="calendar-o"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Cerca Aules Lliures     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="eye"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Places Matrícula     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="plane"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Programes de Mobilitat     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="blackboard"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Lectures TFG i TFM     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="external-link"
+              size={25}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Enllaços d'Interès     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="bug"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Feedback & Bugs     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="gear"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Configuració     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="log-out"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Log Out     
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ScrollViewMock>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "bottom": 10,
+          "position": "absolute",
+          "right": 20,
+        }
+      }
+    >
+      v1.5. 
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Testing Drawer component renders user info correctly after fetching user data 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../static/fondo2.png",
+        }
+      }
+      style={
+        Object {
+          "height": 150,
+          "marginBottom": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderRadius": 40,
+            "elevation": 8,
+            "height": 80,
+            "margin": 12,
+            "marginBottom": 9,
+            "marginTop": 18,
+            "overflow": "hidden",
+            "width": 80,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "headers": Object {
+                "Accept-Language": "ca",
+                "Authorization": "Bearer aToken",
+              },
+              "uri": "https://api.fib.upc.edu/v2/jo/foto.jpg",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 40,
+              "height": 80,
+              "resizeMode": "cover",
+              "width": 80,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+            "marginLeft": 15,
+          }
+        }
+      >
+        <Text
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#505050",
+              "fontWeight": "400",
+            }
+          }
+        >
+          Joan Marc Pastor Mackenzie       
+        </Text>
+        <Text>
+          joan.marc.pastor@est.fib.upc.edu       
+        </Text>
+      </View>
+    </ImageBackground>
+    <ScrollViewMock>
+      <View
+        style={
+          Object {
+            "marginLeft": 15,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="calendar"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Esdeveniments      
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="mortar-board"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Gestor de Notes     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="desktop"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Disponibilitat Labs     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="book"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Sales Bibl. BRGF     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="calendar-o"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Cerca Aules Lliures     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="eye"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Places Matrícula     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="plane"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Programes de Mobilitat     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="blackboard"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+               Lectures TFG i TFM     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="external-link"
+              size={25}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Enllaços d'Interès     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="bug"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Feedback & Bugs     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="gear"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Configuració     
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="#505050"
+              name="log-out"
+              size={26}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "marginLeft": 10,
+                }
+              }
+            >
+              Log Out     
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ScrollViewMock>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "bottom": 10,
+          "position": "absolute",
+          "right": 20,
+        }
+      }
+    >
+      v1.5. 
+    </Text>
+  </View>
+</View>
+`;

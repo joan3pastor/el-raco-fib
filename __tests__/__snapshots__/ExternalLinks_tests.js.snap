@@ -1,0 +1,336 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ExternalLinks component renders as expected 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "overflow": "hidden",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#f2f2f2",
+          "elevation": 1.5,
+          "padding": 15,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#202020",
+            "fontSize": 20,
+            "fontWeight": "400",
+          }
+        }
+      >
+        La Facultat   
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "marginLeft": 20,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0645AD",
+              "fontWeight": "bold",
+              "paddingBottom": 0,
+              "paddingTop": 10,
+            }
+          }
+        >
+          DEFIB (Delegació d'Estudiants de la FIB)   
+        </Text>
+      </TouchableOpacity>
+      <Text>
+           - Bona secció de FAQ per a nous estudiants.   
+      </Text>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0645AD",
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          Associacions   
+        </Text>
+      </TouchableOpacity>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#f2f2f2",
+          "elevation": 1.5,
+          "marginTop": 25,
+          "padding": 15,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#202020",
+            "fontSize": 20,
+            "fontWeight": "400",
+          }
+        }
+      >
+        Guies   
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "marginLeft": 20,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0645AD",
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          Manual de connexió a Eduroam (Wi-Fi)   
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0645AD",
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          Configuració del correu d'estudiant   
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0645AD",
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          Servei d'impressió   
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0645AD",
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          Configuració UPClink (VPN per accedir als servidors de la FIB des de fora la facultat)   
+        </Text>
+      </TouchableOpacity>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#f2f2f2",
+          "elevation": 1.5,
+          "marginTop": 25,
+          "padding": 15,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#202020",
+            "fontSize": 20,
+            "fontWeight": "400",
+          }
+        }
+      >
+        Programari i Serveis per a l'Estudiant   
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "marginLeft": 20,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0645AD",
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          Acords de distribució de programari UPC (Microsoft Imagine, Autocad, Matlab...)   
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0645AD",
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          VMware Academic Program (Ofert per la FIB)   
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0645AD",
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          Github Student Developer Pack (Github private projects, ASW Educate, Heroku Free Dynos, etc.)   
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0645AD",
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          Microsoft Azure for Students   
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0645AD",
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          Microsoft Office for Students + 1 TB OneDrive   
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0645AD",
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          Google Cloud Platform Education Credits   
+        </Text>
+      </TouchableOpacity>
+    </View>
+    <Text
+      style={
+        Object {
+          "marginTop": 20,
+          "padding": 12,
+        }
+      }
+    >
+      Si algun enllaç deixa de funcionar envieu-me un correu des de l'apartat "Feedback & Bugs".   
+    </Text>
+  </View>
+</RCTScrollView>
+`;

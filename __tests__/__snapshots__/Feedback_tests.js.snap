@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Feedback component renders as expected 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fefefe",
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 577,
+        "width": 730,
+      }
+    }
+  >
+    <WebView
+      cacheEnabled={true}
+      originWhitelist={
+        Array [
+          "http://*",
+          "https://*",
+        ]
+      }
+      scalesPageToFit={false}
+      source={
+        Object {
+          "html": "<style>p{text-align:justify}</style><p>Siéntete libre de enviarme un correo si algo no se comporta como esperabas o si echas en falta alguna funcionalidad. Adjunta capturas de pantalla de todo lo posible.</p><p>Trataré de solucionar errores críticos. Todo lo demás dependerá de mi disponibilidad.</p>",
+        }
+      }
+      textZoom={100}
+      useSharedProcessPool={true}
+      useWebKit={true}
+    />
+  </View>
+  <TouchableOpacity
+    activeOpacity={0.8}
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#00671D",
+          "borderRadius": 5,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 30,
+          "padding": 8,
+          "width": 220,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#fff"
+        name="google-play"
+        size={25}
+        style={
+          Object {
+            "marginLeft": 5,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "Arial",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginRight": 0,
+              "textAlign": "center",
+            }
+          }
+        >
+            Valora la App  ❤   
+        </Text>
+      </View>
+    </View>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.8}
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#B40404",
+          "borderRadius": 5,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 30,
+          "padding": 8,
+          "width": 220,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#fff"
+        name="envelope-o"
+        size={25}
+        style={
+          Object {
+            "marginLeft": 5,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "Arial",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginRight": 0,
+              "textAlign": "center",
+            }
+          }
+        >
+            Envíame un correo!  
+        </Text>
+      </View>
+    </View>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.8}
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#064283",
+          "borderRadius": 5,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 30,
+          "padding": 8,
+          "width": 220,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#fff"
+        name="github"
+        size={25}
+        style={
+          Object {
+            "marginLeft": 5,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "Arial",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginRight": 0,
+              "textAlign": "center",
+            }
+          }
+        >
+            Colabora!  
+        </Text>
+      </View>
+    </View>
+  </TouchableOpacity>
+  <Text
+    style={
+      Object {
+        "bottom": 20,
+        "position": "absolute",
+      }
+    }
+  >
+      Creada por Joan Marc Pastor con la API del Racó  
+  </Text>
+</View>
+`;

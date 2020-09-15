@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing filterEvents method from Events component returns 'events' from <reduxstore>.events parsed 1`] = `
+Array [
+  Object {
+    "dia": "2019-09-11",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2019-09-23",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2019-10-31",
+    "hora": "00:00",
+    "nom": "CANVI DIA",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2019-11-01",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2019-12-06",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2019-12-23",
+    "hora": "00:00",
+    "nom": "INICI-VACANCES",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2020-02-10",
+    "hora": "00:00",
+    "nom": "INICI-CURS",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2020-04-06",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2020-04-13",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2020-05-01",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2020-06-01",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2020-06-23",
+    "hora": "00:00",
+    "nom": "FI-EXAMENS",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2019-09-24",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2020-01-06",
+    "hora": "00:00",
+    "nom": "FI-VACANCES",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2020-05-29",
+    "hora": "00:00",
+    "nom": "FI-CURS",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2020-04-07",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2020-04-08",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2020-04-09",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+  Object {
+    "dia": "2020-04-10",
+    "hora": "00:00",
+    "nom": "FESTIU",
+    "tipus": "event",
+  },
+]
+`;
+
+exports[`Testing filterExamens method from Events component returns 'examens' from the active subjects 1`] = `
+Array [
+  Object {
+    "assig": "ASW",
+    "dia": "2020-06-10",
+    "horaFi": "14:30",
+    "horaInici": "11:30",
+    "tipus": "examen",
+    "tipusExamen": "F",
+  },
+  Object {
+    "assig": "ROB",
+    "dia": "2020-06-10",
+    "horaFi": "20:30",
+    "horaInici": "18:30",
+    "tipus": "examen",
+    "tipusExamen": "F",
+  },
+]
+`;
+
+exports[`Testing render from Events component renders view with 0 events 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+      "paddingTop": 10,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "margin": 10,
+        "marginBottom": 30,
+      }
+    }
+  >
+    Només mostra exàmens en hores no lectives i dies festius fins a 3 mesos endevant.     
+  </Text>
+</ScrollViewMock>
+`;
+
+exports[`Testing render from Events component renders view with events and examens 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+      "paddingTop": 10,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "margin": 10,
+        "marginBottom": 30,
+      }
+    }
+  >
+    Només mostra exàmens en hores no lectives i dies festius fins a 3 mesos endevant.     
+  </Text>
+</ScrollViewMock>
+`;

@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Labs component renders as expected when token not yet provided 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <Button
+    color="#1E90FF"
+    onPress={[Function]}
+    title="ACTUALITZAR"
+  />
+  <View
+    key="A5"
+    style={
+      Object {
+        "backgroundColor": "#fafafa",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#424848",
+          "fontSize": 17,
+          "fontWeight": "bold",
+          "marginTop": 15,
+          "padding": 5,
+        }
+      }
+    >
+      A5
+    </Text>
+    <Image
+      source={
+        Object {
+          "headers": Object {
+            "Accept-Language": "ca",
+            "Authorization": "Bearer undefined",
+          },
+          "uri": "https://api.fib.upc.edu/v2/laboratoris/imatges/A5.png?reload=1",
+        }
+      }
+      style={
+        Object {
+          "height": 250,
+          "resizeMode": "stretch",
+          "width": 750,
+        }
+      }
+    />
+  </View>
+  <View
+    key="C6"
+    style={
+      Object {
+        "backgroundColor": "#fafafa",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#424848",
+          "fontSize": 17,
+          "fontWeight": "bold",
+          "marginTop": 15,
+          "padding": 5,
+        }
+      }
+    >
+      C6
+    </Text>
+    <Image
+      source={
+        Object {
+          "headers": Object {
+            "Accept-Language": "ca",
+            "Authorization": "Bearer undefined",
+          },
+          "uri": "https://api.fib.upc.edu/v2/laboratoris/imatges/C6.png?reload=1",
+        }
+      }
+      style={
+        Object {
+          "height": 250,
+          "resizeMode": "stretch",
+          "width": 750,
+        }
+      }
+    />
+  </View>
+  <View
+    key="B5"
+    style={
+      Object {
+        "backgroundColor": "#fafafa",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#424848",
+          "fontSize": 17,
+          "fontWeight": "bold",
+          "marginTop": 15,
+          "padding": 5,
+        }
+      }
+    >
+      B5
+    </Text>
+    <Image
+      source={
+        Object {
+          "headers": Object {
+            "Accept-Language": "ca",
+            "Authorization": "Bearer undefined",
+          },
+          "uri": "https://api.fib.upc.edu/v2/laboratoris/imatges/B5.png?reload=1",
+        }
+      }
+      style={
+        Object {
+          "height": 250,
+          "resizeMode": "stretch",
+          "width": 750,
+        }
+      }
+    />
+  </View>
+</ScrollViewMock>
+`;
+
+exports[`Testing Labs component renders as expected when token provided 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <Button
+    color="#1E90FF"
+    onPress={[Function]}
+    title="ACTUALITZAR"
+  />
+  <View
+    key="A5"
+    style={
+      Object {
+        "backgroundColor": "#fafafa",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#424848",
+          "fontSize": 17,
+          "fontWeight": "bold",
+          "marginTop": 15,
+          "padding": 5,
+        }
+      }
+    >
+      A5
+    </Text>
+    <Image
+      source={
+        Object {
+          "headers": Object {
+            "Accept-Language": "ca",
+            "Authorization": "Bearer token_mock",
+          },
+          "uri": "https://api.fib.upc.edu/v2/laboratoris/imatges/A5.png?reload=1",
+        }
+      }
+      style={
+        Object {
+          "height": 250,
+          "resizeMode": "stretch",
+          "width": 750,
+        }
+      }
+    />
+  </View>
+  <View
+    key="C6"
+    style={
+      Object {
+        "backgroundColor": "#fafafa",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#424848",
+          "fontSize": 17,
+          "fontWeight": "bold",
+          "marginTop": 15,
+          "padding": 5,
+        }
+      }
+    >
+      C6
+    </Text>
+    <Image
+      source={
+        Object {
+          "headers": Object {
+            "Accept-Language": "ca",
+            "Authorization": "Bearer token_mock",
+          },
+          "uri": "https://api.fib.upc.edu/v2/laboratoris/imatges/C6.png?reload=1",
+        }
+      }
+      style={
+        Object {
+          "height": 250,
+          "resizeMode": "stretch",
+          "width": 750,
+        }
+      }
+    />
+  </View>
+  <View
+    key="B5"
+    style={
+      Object {
+        "backgroundColor": "#fafafa",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#424848",
+          "fontSize": 17,
+          "fontWeight": "bold",
+          "marginTop": 15,
+          "padding": 5,
+        }
+      }
+    >
+      B5
+    </Text>
+    <Image
+      source={
+        Object {
+          "headers": Object {
+            "Accept-Language": "ca",
+            "Authorization": "Bearer token_mock",
+          },
+          "uri": "https://api.fib.upc.edu/v2/laboratoris/imatges/B5.png?reload=1",
+        }
+      }
+      style={
+        Object {
+          "height": 250,
+          "resizeMode": "stretch",
+          "width": 750,
+        }
+      }
+    />
+  </View>
+</ScrollViewMock>
+`;

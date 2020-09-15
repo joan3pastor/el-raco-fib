@@ -1,0 +1,9101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Horari component renders an empty schelude when schelude data not provided 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <GridNB>
+    <RowNB
+      size={70}
+    >
+      <ColumnNB />
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dl. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dt. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dc. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dj. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dv. 
+          </Text>
+        </View>
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="0"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             8:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="1"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             9:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="2"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             10:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="3"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             11:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="4"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             12:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="5"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             13:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="6"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             14:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="7"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             15:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="8"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             16:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="9"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             17:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="10"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             18:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="11"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             19:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="12"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             20:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+  </GridNB>
+</View>
+`;
+
+exports[`Testing Horari component renders the schelude correctly when provided a normal schelude data [settings: minimalist=false] 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <GridNB>
+    <RowNB
+      size={70}
+    >
+      <ColumnNB />
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dl. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dt. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dc. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dj. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dv. 
+          </Text>
+        </View>
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="0"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             8:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="1"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             9:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="2"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             10:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="3"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             11:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="4"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             12:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="5"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             13:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="6"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             14:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#baffc9",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-T 10
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              A5104
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#baffc9",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-P 10
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              A5104
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="7"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             15:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#baffc9",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-T 10
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              A5104
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#baffc9",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-P 10
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              A5104
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="8"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             16:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bae1ff",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB-T 10
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              C6S303
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bae1ff",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB-L 11
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              Online
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="9"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             17:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bae1ff",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB-T 10
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              C6S303
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bae1ff",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB-L 11
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              Online
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="10"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             18:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="11"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             19:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="12"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             20:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+  </GridNB>
+</View>
+`;
+
+exports[`Testing Horari component renders the schelude correctly when provided a normal schelude data [settings: minimalist=true] 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <GridNB>
+    <RowNB
+      size={70}
+    >
+      <ColumnNB />
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dl. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dt. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dc. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dj. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dv. 
+          </Text>
+        </View>
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="0"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             8:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="1"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             9:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="2"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             10:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="3"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             11:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="4"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             12:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="5"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             13:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="6"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             14:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#baffc9",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 15,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-T
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#baffc9",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 15,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-P
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="7"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             15:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#baffc9",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 15,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-T
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#baffc9",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 15,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-P
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="8"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             16:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bae1ff",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 15,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB-T
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bae1ff",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 15,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB-L
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="9"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             17:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bae1ff",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 15,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB-T
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bae1ff",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 15,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB-L
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="10"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             18:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="11"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             19:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="12"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             20:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+  </GridNB>
+</View>
+`;
+
+exports[`Testing Horari component renders the schelude correctly when provided a normal schelude data [settings: size=smaller(12)] 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <GridNB>
+    <RowNB
+      size={70}
+    >
+      <ColumnNB />
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dl. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dt. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dc. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dj. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dv. 
+          </Text>
+        </View>
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="0"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             8:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="1"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             9:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="2"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             10:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="3"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             11:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="4"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             12:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="5"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             13:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="6"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             14:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#baffc9",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-T
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#baffc9",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-P
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="7"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             15:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#baffc9",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-T
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#baffc9",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-P
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="8"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             16:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bae1ff",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB-T
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bae1ff",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB-L
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="9"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             17:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bae1ff",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB-T
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bae1ff",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB-L
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="10"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             18:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="11"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             19:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="12"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             20:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+  </GridNB>
+</View>
+`;
+
+exports[`Testing Horari component renders the schelude correctly when provided a schelude data with overlapping [settings: minimalist=false] 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <GridNB>
+    <RowNB
+      size={70}
+    >
+      <ColumnNB />
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dl. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dt. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dc. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dj. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dv. 
+          </Text>
+        </View>
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="0"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             8:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="1"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             9:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="2"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             10:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="3"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             11:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="4"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             12:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="5"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             13:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="6"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             14:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffb3ba",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-T 10
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              A5104
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="7"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             15:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffb3ba",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-T 10
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              A5104
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="8"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             16:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#e6e6e6",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              key="AS"
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              AS
+            </Text>
+            <Text
+              key="ROB"
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="9"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             17:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#e6e6e6",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              key="AS"
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              AS
+            </Text>
+            <Text
+              key="ROB"
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="10"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             18:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="11"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             19:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="12"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             20:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+  </GridNB>
+</View>
+`;
+
+exports[`Testing Horari component renders the schelude correctly when provided a schelude data with overlapping [settings: minimalist=true] 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <GridNB>
+    <RowNB
+      size={70}
+    >
+      <ColumnNB />
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dl. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dt. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dc. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dj. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dv. 
+          </Text>
+        </View>
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="0"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             8:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="1"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             9:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="2"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             10:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="3"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             11:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="4"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             12:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="5"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             13:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="6"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             14:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffb3ba",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 15,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-T
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="7"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             15:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffb3ba",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 15,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ASDP-T
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="8"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             16:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#e6e6e6",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              key="AS"
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              AS
+            </Text>
+            <Text
+              key="ROB"
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="9"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             17:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          delayPressOut={100}
+          onPress={[Function]}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#e6e6e6",
+                "flex": 1,
+                "justifyContent": "center",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Text
+              key="AS"
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              AS
+            </Text>
+            <Text
+              key="ROB"
+              style={
+                Object {
+                  "color": "#404545",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "textAlign": "center",
+                  "width": 134,
+                }
+              }
+            >
+              ROB
+            </Text>
+          </View>
+        </TouchableHighlight>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="10"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             18:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="11"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             19:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="12"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             20:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+  </GridNB>
+</View>
+`;
+
+exports[`Testing Horari component renders the schelude correctly when provided an empty schelude data [settings: minimalist=false] 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <GridNB>
+    <RowNB
+      size={70}
+    >
+      <ColumnNB />
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dl. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dt. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dc. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dj. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dv. 
+          </Text>
+        </View>
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="0"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             8:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="1"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             9:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="2"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             10:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="3"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             11:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="4"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             12:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="5"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             13:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="6"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             14:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="7"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             15:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="8"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             16:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="9"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             17:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="10"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             18:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="11"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             19:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="12"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             20:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+  </GridNB>
+</View>
+`;
+
+exports[`Testing Horari component renders the schelude correctly when provided an empty schelude data [settings: minimalist=true] 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <GridNB>
+    <RowNB
+      size={70}
+    >
+      <ColumnNB />
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dl. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dt. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dc. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dj. 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "bold",
+              }
+            }
+          >
+             dv. 
+          </Text>
+        </View>
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="0"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             8:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="1"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             9:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="2"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             10:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="3"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             11:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="4"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             12:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="5"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             13:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="6"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             14:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="7"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             15:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="8"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             16:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="9"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             17:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="10"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             18:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="11"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             19:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      key="12"
+      size={100}
+      style={
+        Object {
+          "backgroundColor": "#f6f6f6",
+          "borderColor": "#e0e0e0",
+          "borderTopWidth": 0.6,
+        }
+      }
+    >
+      <ColumnNB
+        size={155}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E0F2F7",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             20:00 
+          </Text>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+      <ColumnNB
+        size={176}
+      >
+        <View />
+      </ColumnNB>
+    </RowNB>
+  </GridNB>
+</View>
+`;
+
+exports[`Testing parseHorari method from Horari component parses a normal schelude 1`] = `
+Array [
+  Object {
+    "ASDP": "#baffc9",
+    "ROB": "#bae1ff",
+  },
+  Object {
+    "1": Object {
+      "16": Object {
+        "aules": "C6S303",
+        "grup": "10",
+        "nom": "ROB",
+        "tipus": "T",
+      },
+      "17": Object {
+        "aules": "C6S303",
+        "grup": "10",
+        "nom": "ROB",
+        "tipus": "T",
+      },
+    },
+    "2": Object {
+      "14": Object {
+        "aules": "A5104",
+        "grup": "10",
+        "nom": "ASDP",
+        "tipus": "T",
+      },
+      "15": Object {
+        "aules": "A5104",
+        "grup": "10",
+        "nom": "ASDP",
+        "tipus": "T",
+      },
+      "16": Object {
+        "aules": "Online",
+        "grup": "11",
+        "nom": "ROB",
+        "tipus": "L",
+      },
+      "17": Object {
+        "aules": "Online",
+        "grup": "11",
+        "nom": "ROB",
+        "tipus": "L",
+      },
+    },
+    "3": Object {},
+    "4": Object {
+      "14": Object {
+        "aules": "A5104",
+        "grup": "10",
+        "nom": "ASDP",
+        "tipus": "P",
+      },
+      "15": Object {
+        "aules": "A5104",
+        "grup": "10",
+        "nom": "ASDP",
+        "tipus": "P",
+      },
+    },
+    "5": Object {},
+  },
+]
+`;
+
+exports[`Testing parseHorari method from Horari component parses a schelude with overlapping 1`] = `
+Array [
+  Object {
+    "AS": "#bae1ff",
+    "ASDP": "#ffb3ba",
+    "ROB": "#baffc9",
+  },
+  Object {
+    "1": Object {
+      "16": Array [
+        Object {
+          "aules": "A6102",
+          "grup": "10",
+          "nom": "AS",
+          "tipus": "T",
+        },
+        Object {
+          "aules": "C6S303",
+          "grup": "10",
+          "nom": "ROB",
+          "tipus": "T",
+        },
+      ],
+      "17": Array [
+        Object {
+          "aules": "A6102",
+          "grup": "10",
+          "nom": "AS",
+          "tipus": "T",
+        },
+        Object {
+          "aules": "C6S303",
+          "grup": "10",
+          "nom": "ROB",
+          "tipus": "T",
+        },
+      ],
+    },
+    "2": Object {
+      "14": Object {
+        "aules": "A5104",
+        "grup": "10",
+        "nom": "ASDP",
+        "tipus": "T",
+      },
+      "15": Object {
+        "aules": "A5104",
+        "grup": "10",
+        "nom": "ASDP",
+        "tipus": "T",
+      },
+    },
+    "3": Object {},
+    "4": Object {},
+    "5": Object {},
+  },
+]
+`;
+
+exports[`Testing parseHorari method from Horari component parses an empty schelude 1`] = `
+Array [
+  Object {},
+  Object {
+    "1": Object {},
+    "2": Object {},
+    "3": Object {},
+    "4": Object {},
+    "5": Object {},
+  },
+]
+`;
+
+exports[`Testing printCell method from Horari component returns a cell which contains a class from the provided parsed schelude [settings: minimalist=false] 1`] = `
+<TouchableHighlight
+  activeOpacity={0.85}
+  delayPressOut={100}
+  onPress={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+  underlayColor="black"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#bae1ff",
+        "flex": 1,
+        "justifyContent": "center",
+        "overflow": "hidden",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#404545",
+          "fontSize": 13,
+          "fontWeight": "600",
+          "textAlign": "center",
+          "width": 400,
+        }
+      }
+    >
+      ROB-T 10
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#404545",
+          "fontSize": 13,
+          "fontWeight": "600",
+          "textAlign": "center",
+          "width": 400,
+        }
+      }
+    >
+      C6S303
+    </Text>
+  </View>
+</TouchableHighlight>
+`;
+
+exports[`Testing printCell method from Horari component returns a cell which contains a class from the provided parsed schelude [settings: minimalist=true] 1`] = `
+<TouchableHighlight
+  activeOpacity={0.85}
+  delayPressOut={100}
+  onPress={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+  underlayColor="black"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#bae1ff",
+        "flex": 1,
+        "justifyContent": "center",
+        "overflow": "hidden",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#404545",
+          "fontSize": 15,
+          "fontWeight": "600",
+          "textAlign": "center",
+          "width": 400,
+        }
+      }
+    >
+      ROB-T
+    </Text>
+  </View>
+</TouchableHighlight>
+`;
+
+exports[`Testing printCell method from Horari component returns a cell which contains a class from the provided parsed schelude [settings: size=smaller(12)] 1`] = `
+<TouchableHighlight
+  activeOpacity={0.85}
+  delayPressOut={100}
+  onPress={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+  underlayColor="black"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#bae1ff",
+        "flex": 1,
+        "justifyContent": "center",
+        "overflow": "hidden",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#404545",
+          "fontSize": 14,
+          "fontWeight": "600",
+          "textAlign": "center",
+          "width": 400,
+        }
+      }
+    >
+      ROB-T
+    </Text>
+  </View>
+</TouchableHighlight>
+`;
+
+exports[`Testing printCell method from Horari component returns a cell which contains an overlapping of two classes from the provided parsed schelude [settings: minimalist=false] 1`] = `
+<TouchableHighlight
+  activeOpacity={0.85}
+  delayPressOut={100}
+  onPress={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+  underlayColor="black"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#e6e6e6",
+        "flex": 1,
+        "justifyContent": "center",
+        "overflow": "hidden",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#404545",
+          "fontSize": 13,
+          "fontWeight": "600",
+          "textAlign": "center",
+          "width": 400,
+        }
+      }
+    >
+      AS
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#404545",
+          "fontSize": 13,
+          "fontWeight": "600",
+          "textAlign": "center",
+          "width": 400,
+        }
+      }
+    >
+      ROB
+    </Text>
+  </View>
+</TouchableHighlight>
+`;
+
+exports[`Testing printCell method from Horari component returns a cell which contains an overlapping of two classes from the provided parsed schelude [settings: minimalist=true] 1`] = `
+<TouchableHighlight
+  activeOpacity={0.85}
+  delayPressOut={100}
+  onPress={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+  underlayColor="black"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#e6e6e6",
+        "flex": 1,
+        "justifyContent": "center",
+        "overflow": "hidden",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#404545",
+          "fontSize": 13,
+          "fontWeight": "600",
+          "textAlign": "center",
+          "width": 400,
+        }
+      }
+    >
+      AS
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#404545",
+          "fontSize": 13,
+          "fontWeight": "600",
+          "textAlign": "center",
+          "width": 400,
+        }
+      }
+    >
+      ROB
+    </Text>
+  </View>
+</TouchableHighlight>
+`;
+
+exports[`Testing printCell method from Horari component returns a cell which doesn't contain a class from the provided parsed schelude [settings: minimalist=false] 1`] = `<View />`;
+
+exports[`Testing printCell method from Horari component returns a cell which doesn't contain a class from the provided parsed schelude [settings: minimalist=true] 1`] = `<View />`;
