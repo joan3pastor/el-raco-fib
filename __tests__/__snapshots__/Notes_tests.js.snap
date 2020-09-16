@@ -1,0 +1,851 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Notes component Renders correctly when 'assigs' and 'notes' are NOT provided 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text>
+      No estàs cursant cap assignatura.  
+  </Text>
+</View>
+`;
+
+exports[`Testing Notes component Renders correctly when 'assigs' and 'notes' are provided 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fdfdfd",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#064283",
+        "elevation": 5,
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "padding": 14,
+        "width": 750,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <PercentageCircle
+        bgColor="#064283"
+        borderWidth={7}
+        color="#3399FF"
+        containerStyle={null}
+        percent={77.33}
+        radius={26}
+        shadowColor="#fff"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+            7.73  
+        </Text>
+      </PercentageCircle>
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginTop": 4,
+            "textAlign": "center",
+          }
+        }
+      >
+          Nota mitja  
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <PercentageCircle
+        bgColor="#064283"
+        borderWidth={7}
+        color="#3399FF"
+        containerStyle={null}
+        percent={46.400000000000006}
+        radius={26}
+        shadowColor="#fff"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+            4.64  
+        </Text>
+      </PercentageCircle>
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginTop": 4,
+            "textAlign": "center",
+          }
+        }
+      >
+          Nota total  
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <PercentageCircle
+        bgColor="#064283"
+        borderWidth={7}
+        color="#3399FF"
+        containerStyle={null}
+        percent={60.00000000000001}
+        radius={26}
+        shadowColor="#fff"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontSize": 13,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+            60%  
+        </Text>
+      </PercentageCircle>
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginTop": 4,
+            "textAlign": "center",
+          }
+        }
+      >
+          Progrés  
+      </Text>
+    </View>
+  </View>
+  <ScrollViewMock>
+    <View
+      key="ROB"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderColor": "#f2f2f2",
+          "borderRadius": 5,
+          "borderWidth": 0.5,
+          "elevation": 3,
+          "marginHorizontal": 30,
+          "marginTop": 15,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <TouchableOpacity
+          activeOpacity={0.9}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bae1ff",
+                "borderBottomColor": "gray",
+                "borderBottomWidth": 1,
+                "borderTopLeftRadius": 5,
+                "borderTopRightRadius": 5,
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": 695,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#505050",
+                    "fontWeight": "bold",
+                    "padding": 10,
+                  }
+                }
+              >
+                Robótica   
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginHorizontal": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "padding": 8,
+                  "paddingTop": 12,
+                }
+              }
+            >
+              <PercentageCircle
+                bgColor="#fff"
+                borderWidth={5}
+                color="#0bdb00"
+                containerStyle={null}
+                percent={77.33}
+                radius={20}
+                shadowColor="#d7d7d7"
+              >
+                <Text
+                  style={
+                    Object {
+                      "fontSize": 12,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                    7.73  
+                </Text>
+              </PercentageCircle>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                  Nota mitja  
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "padding": 8,
+                  "paddingTop": 12,
+                }
+              }
+            >
+              <PercentageCircle
+                bgColor="#fff"
+                borderWidth={5}
+                color="#ff0000"
+                containerStyle={null}
+                percent={46.400000000000006}
+                radius={20}
+                shadowColor="#d7d7d7"
+              >
+                <Text
+                  style={
+                    Object {
+                      "fontSize": 12,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                    4.64  
+                </Text>
+              </PercentageCircle>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                  Nota total  
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "padding": 8,
+                  "paddingTop": 12,
+                }
+              }
+            >
+              <PercentageCircle
+                bgColor="#fff"
+                borderWidth={5}
+                color="#3399FF"
+                containerStyle={null}
+                percent={60.00000000000001}
+                radius={20}
+                shadowColor="#d7d7d7"
+              >
+                <Text
+                  style={
+                    Object {
+                      "fontSize": 12,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                    60%  
+                </Text>
+              </PercentageCircle>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                  Progrés  
+              </Text>
+            </View>
+          </View>
+        </TouchableOpacity>
+      </View>
+      <View
+        style={Object {}}
+      >
+        <Collapsible
+          align="top"
+          collapsed={true}
+          collapsedHeight={0}
+          duration={300}
+          easing="easeOutCubic"
+          enablePointerEvents={false}
+          onAnimationEnd={[Function]}
+        >
+          <View
+            key="Examen Parcial 10ROB"
+            style={
+              Object {
+                "backgroundColor": "#f0f0f0",
+                "borderRadius": 6,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginHorizontal": 10,
+                "marginVertical": 5,
+                "padding": 10,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Examen Parcial 1  
+              </Text>
+              <Text
+                style={Object {}}
+              >
+                (20%)    Nota: 7.20  
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+              >
+                <Icon
+                  allowFontScaling={false}
+                  color="#505050"
+                  name="pencil"
+                  size={22}
+                  style={
+                    Object {
+                      "marginTop": 7,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+              >
+                <Icon
+                  allowFontScaling={false}
+                  color="#505050"
+                  name="trash"
+                  size={22}
+                  style={
+                    Object {
+                      "marginLeft": 18,
+                      "marginRight": 5,
+                      "marginTop": 7,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+            </View>
+          </View>
+          <View
+            key="Examen Parcial 21ROB"
+            style={
+              Object {
+                "backgroundColor": "#f0f0f0",
+                "borderRadius": 6,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginHorizontal": 10,
+                "marginVertical": 5,
+                "padding": 10,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Examen Parcial 2  
+              </Text>
+              <Text
+                style={Object {}}
+              >
+                (40%)    Nota: 8.00  
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+              >
+                <Icon
+                  allowFontScaling={false}
+                  color="#505050"
+                  name="pencil"
+                  size={22}
+                  style={
+                    Object {
+                      "marginTop": 7,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+              >
+                <Icon
+                  allowFontScaling={false}
+                  color="#505050"
+                  name="trash"
+                  size={22}
+                  style={
+                    Object {
+                      "marginLeft": 18,
+                      "marginRight": 5,
+                      "marginTop": 7,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+            </View>
+          </View>
+          <View
+            key="Lab2ROB"
+            style={
+              Object {
+                "backgroundColor": "#f0f0f0",
+                "borderRadius": 6,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginHorizontal": 10,
+                "marginVertical": 5,
+                "padding": 10,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Lab  
+              </Text>
+              <Text
+                style={Object {}}
+              >
+                (30%)    Nota: -  
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+              >
+                <Icon
+                  allowFontScaling={false}
+                  color="#505050"
+                  name="pencil"
+                  size={22}
+                  style={
+                    Object {
+                      "marginTop": 7,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+              >
+                <Icon
+                  allowFontScaling={false}
+                  color="#505050"
+                  name="trash"
+                  size={22}
+                  style={
+                    Object {
+                      "marginLeft": 18,
+                      "marginRight": 5,
+                      "marginTop": 7,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "margin": 10,
+              }
+            }
+          >
+            <Button
+              onPress={[Function]}
+              title="AFEGIR ENTRADA"
+            />
+          </View>
+        </Collapsible>
+      </View>
+    </View>
+    <Text />
+  </ScrollViewMock>
+  <ReactNativeModal
+    animationIn="slideInUp"
+    animationInTiming={300}
+    animationOut="slideOutDown"
+    animationOutTiming={300}
+    avoidKeyboard={false}
+    backdropColor="black"
+    backdropOpacity={0.7}
+    backdropTransitionInTiming={300}
+    backdropTransitionOutTiming={300}
+    coverScreen={true}
+    customBackdrop={null}
+    deviceHeight={null}
+    deviceWidth={null}
+    hasBackdrop={true}
+    hideModalContentWhileAnimating={false}
+    isVisible={false}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalShow={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "margin": 0,
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    useNativeDriver={false}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 8,
+            "height": 330,
+            "padding": 14,
+            "width": 670,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#606060",
+                "fontSize": 16,
+                "fontWeight": "400",
+              }
+            }
+          >
+            Nom acte avaluatiu*:  
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#f2f2f2",
+                "borderColor": "lightgray",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "height": 40,
+              }
+            }
+            underlineColorAndroid="transparent"
+            value={null}
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#606060",
+                "fontSize": 16,
+                "fontWeight": "400",
+              }
+            }
+          >
+            Pes (0 a 1)*:  
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="decimal-pad"
+            onChangeText={[Function]}
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#f2f2f2",
+                "borderColor": "lightgray",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "height": 40,
+              }
+            }
+            underlineColorAndroid="transparent"
+            value={null}
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#606060",
+                "fontSize": 16,
+                "fontWeight": "400",
+              }
+            }
+          >
+            Nota:  
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="decimal-pad"
+            onChangeText={[Function]}
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#f2f2f2",
+                "borderColor": "lightgray",
+                "borderRadius": 3,
+                "borderWidth": 1,
+                "height": 40,
+              }
+            }
+            underlineColorAndroid="transparent"
+            value={null}
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginTop": 26,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.9}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#dc3545",
+                  "borderRadius": 6,
+                  "elevation": 4,
+                  "justifyContent": "center",
+                  "padding": 6,
+                  "width": 110,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "color": "#fff",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                 CANCEL·LAR 
+              </Text>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.9}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#28a745",
+                  "borderRadius": 6,
+                  "elevation": 4,
+                  "justifyContent": "center",
+                  "padding": 6,
+                  "width": 110,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "color": "#fff",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                 GUARDAR 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </View>
+  </ReactNativeModal>
+</View>
+`;

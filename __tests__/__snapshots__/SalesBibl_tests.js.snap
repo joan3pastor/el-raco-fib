@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing SalesBibl component renders as expected 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+      "margin": 2,
+      "marginTop": 0,
+    }
+  }
+>
+  <WebView
+    cacheEnabled={true}
+    originWhitelist={
+      Array [
+        "http://*",
+        "https://*",
+      ]
+    }
+    scalesPageToFit={false}
+    source={
+      Object {
+        "uri": "https://apps.bibliotecnica.upc.edu/reserva_sales/comunes/disponibilidad.php?Id_centro=1&Admin=1&Parametros=TnVtX2NvbHVtbmFzPTYmQWx0bz0mQW5jaG89MTAwJSZGdWVudGU9QXJpYWwmVGFtYW5vX2Z1ZW50ZT0xOHB4JlRhbWFub19jb250b3Jubz0ycHgmTWFyZ2VuX2RvY3VtZW50bz0wcHgmQ29sb3JfZm9uZG89ZmZmZmZmJlBhZGRpbmdfY2VsZGE9MTBweCZNb3N0cmFyX3RpdHVsbz0xJkFicmV2aWF0dXJhcz0xJk1vc3RyYXJfbGlua19hZG1pbj0wJk1vc3RyYXJfdGV4dG9fZGlzcG9uaWJsZXM9MCZDb21wYWN0YXJfdWJpY2FjaW9uZXM9MCZNb3N0cmFyX2VubGFjZV9pbmZvcm1hY2lvbj0wJk1vc3RyYXJfYm90b25fcmVzZXJ2YXI9MQ==",
+      }
+    }
+    textZoom={90}
+    useSharedProcessPool={true}
+    useWebKit={true}
+  />
+</View>
+`;

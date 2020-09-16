@@ -1,0 +1,3451 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Assignatures component renders info message when you aren't enrolled in any subject 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text>
+       No estàs cursant cap assignatura.    
+  </Text>
+</View>
+`;
+
+exports[`Testing Assignatures component renders list with one subject and modal view of the subject closed 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    key="ROB"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#f2f2f2",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "elevation": 3,
+        "margin": 20,
+        "marginBottom": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "gray",
+              "borderBottomWidth": 1,
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#606060",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Robótica  
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffdfba",
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            ROB - Grup: 11 - Credits: 6 - Semestre: ? 
+          </Text>
+        </View>
+      </View>
+      <ReactNativeModal
+        animationIn="slideInUp"
+        animationInTiming={300}
+        animationOut="slideOutDown"
+        animationOutTiming={300}
+        avoidKeyboard={false}
+        backdropColor="black"
+        backdropOpacity={0.7}
+        backdropTransitionInTiming={300}
+        backdropTransitionOutTiming={300}
+        coverScreen={true}
+        customBackdrop={null}
+        deviceHeight={400}
+        deviceWidth={750}
+        hasBackdrop={true}
+        hideModalContentWhileAnimating={false}
+        isVisible={false}
+        onBackButtonPress={[Function]}
+        onBackdropPress={[Function]}
+        onModalHide={[Function]}
+        onModalShow={[Function]}
+        onModalWillHide={[Function]}
+        onModalWillShow={[Function]}
+        scrollHorizontal={false}
+        scrollOffset={0}
+        scrollOffsetMax={0}
+        scrollTo={null}
+        style={
+          Object {
+            "flex": 1,
+            "margin": 0,
+            "overflow": "visible",
+            "padding": 0,
+          }
+        }
+        supportedOrientations={
+          Array [
+            "portrait",
+            "landscape",
+          ]
+        }
+        swipeThreshold={100}
+        useNativeDriver={false}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fafafa",
+              "borderRadius": 10,
+              "flex": 1,
+              "margin": 20,
+              "marginBottom": 100,
+              "marginTop": 70,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f0f0f0",
+                "padding": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "fontSize": NaN,
+                  "fontWeight": "900",
+                }
+              }
+            >
+                Robótica  
+            </Text>
+          </View>
+          <ScrollViewMock>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": undefined,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Professors   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": undefined,
+                  }
+                }
+              >
+                Carregant professors...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": undefined,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Mètode d'avaluació   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": undefined,
+                  }
+                }
+              >
+                Carregant avaluació...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": undefined,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Metodologia docent   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": undefined,
+                  }
+                }
+              >
+                Carregant metodologia...   
+              </Text>
+            </View>
+          </ScrollViewMock>
+        </View>
+      </ReactNativeModal>
+    </TouchableOpacity>
+  </View>
+  <Text />
+</ScrollViewMock>
+`;
+
+exports[`Testing Assignatures component renders list with one subject and modal view of the subject opened 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    key="ROB"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#f2f2f2",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "elevation": 3,
+        "margin": 20,
+        "marginBottom": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "gray",
+              "borderBottomWidth": 1,
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#606060",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Robótica  
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffdfba",
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            ROB - Grup: 11 - Credits: 6 - Semestre: ? 
+          </Text>
+        </View>
+      </View>
+      <ReactNativeModal
+        animationIn="slideInUp"
+        animationInTiming={300}
+        animationOut="slideOutDown"
+        animationOutTiming={300}
+        avoidKeyboard={false}
+        backdropColor="black"
+        backdropOpacity={0.7}
+        backdropTransitionInTiming={300}
+        backdropTransitionOutTiming={300}
+        coverScreen={true}
+        customBackdrop={null}
+        deviceHeight={400}
+        deviceWidth={750}
+        hasBackdrop={true}
+        hideModalContentWhileAnimating={false}
+        isVisible={true}
+        onBackButtonPress={[Function]}
+        onBackdropPress={[Function]}
+        onModalHide={[Function]}
+        onModalShow={[Function]}
+        onModalWillHide={[Function]}
+        onModalWillShow={[Function]}
+        scrollHorizontal={false}
+        scrollOffset={0}
+        scrollOffsetMax={0}
+        scrollTo={null}
+        style={
+          Object {
+            "flex": 1,
+            "margin": 0,
+            "overflow": "visible",
+            "padding": 0,
+          }
+        }
+        supportedOrientations={
+          Array [
+            "portrait",
+            "landscape",
+          ]
+        }
+        swipeThreshold={100}
+        useNativeDriver={false}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fafafa",
+              "borderRadius": 10,
+              "flex": 1,
+              "margin": 20,
+              "marginBottom": 100,
+              "marginTop": 70,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f0f0f0",
+                "padding": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "fontSize": NaN,
+                  "fontWeight": "900",
+                }
+              }
+            >
+                Robótica  
+            </Text>
+          </View>
+          <ScrollViewMock>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": undefined,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Professors   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": undefined,
+                  }
+                }
+              >
+                Carregant professors...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": undefined,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Mètode d'avaluació   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": undefined,
+                  }
+                }
+              >
+                Carregant avaluació...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": undefined,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Metodologia docent   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": undefined,
+                  }
+                }
+              >
+                Carregant metodologia...   
+              </Text>
+            </View>
+          </ScrollViewMock>
+        </View>
+      </ReactNativeModal>
+    </TouchableOpacity>
+  </View>
+  <Text />
+</ScrollViewMock>
+`;
+
+exports[`Testing createCards method from Assignatures component returns a rendered list of cards (size=1) with its modal view with '/guia' fetched' 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#f2f2f2",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "elevation": 3,
+        "margin": 20,
+        "marginBottom": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "gray",
+              "borderBottomWidth": 1,
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#606060",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Robótica  
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffdfba",
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            ROB - Grup: 11 - Credits: 6 - Semestre: ? 
+          </Text>
+        </View>
+      </View>
+      <ReactNativeModal
+        animationIn="slideInUp"
+        animationInTiming={300}
+        animationOut="slideOutDown"
+        animationOutTiming={300}
+        avoidKeyboard={false}
+        backdropColor="black"
+        backdropOpacity={0.7}
+        backdropTransitionInTiming={300}
+        backdropTransitionOutTiming={300}
+        coverScreen={true}
+        customBackdrop={null}
+        deviceHeight={400}
+        deviceWidth={750}
+        hasBackdrop={true}
+        hideModalContentWhileAnimating={false}
+        isVisible={false}
+        onBackButtonPress={[Function]}
+        onBackdropPress={[Function]}
+        onModalHide={[Function]}
+        onModalShow={[Function]}
+        onModalWillHide={[Function]}
+        onModalWillShow={[Function]}
+        scrollHorizontal={false}
+        scrollOffset={0}
+        scrollOffsetMax={0}
+        scrollTo={null}
+        style={
+          Object {
+            "flex": 1,
+            "margin": 0,
+            "overflow": "visible",
+            "padding": 0,
+          }
+        }
+        supportedOrientations={
+          Array [
+            "portrait",
+            "landscape",
+          ]
+        }
+        swipeThreshold={100}
+        useNativeDriver={false}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fafafa",
+              "borderRadius": 10,
+              "flex": 1,
+              "margin": 20,
+              "marginBottom": 100,
+              "marginTop": 70,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f0f0f0",
+                "padding": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "fontSize": 17,
+                  "fontWeight": "900",
+                }
+              }
+            >
+                Robótica  
+            </Text>
+          </View>
+          <ScrollViewMock>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Professors   
+              </Text>
+              <View
+                style={
+                  Object {
+                    "padding": 5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#404040",
+                      "fontSize": 14,
+                    }
+                  }
+                >
+                  Antonio Benito Martínez Velasco (Responsable) 
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#404040",
+                      "fontSize": 14,
+                    }
+                  }
+                >
+                  antonio.b.martinez@upc.edu
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "padding": 5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#404040",
+                      "fontSize": 14,
+                    }
+                  }
+                >
+                  Cecilio Angulo Bahon
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#404040",
+                      "fontSize": 14,
+                    }
+                  }
+                >
+                  cecilio.angulo@upc.edu
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "padding": 5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#404040",
+                      "fontSize": 14,
+                    }
+                  }
+                >
+                  Marc Roig Sebé
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#404040",
+                      "fontSize": 14,
+                    }
+                  }
+                >
+                  marc.roig.sebe@upc.edu
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Mètode d'avaluació   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                L'avaluació de l'assignatura es realitza a partir de la resolució de problemes proposats pel professorat (P), exàmens (E), les activitats de laboratori (L) i activitats de caràcter voluntari (A, participació a classe, treball específic o altres activitats). 
+
+La nota de l'assignatura de Robòtica (NA) s'obté aplicant la fórmula: 
+
+NA= mínim ( 10 , 0.3*P + 0.4*F + 0.3*(L + A) ) 
+
+On: 
+L : Nota de laboratori 
+F : Nota d' Examens 
+P : Nota de Problemes
+A : Nota de participació en classe i realització de problemes pràctics o treballs específics (de caràcter voluntari). La nota pot anar de 0 a 3. 
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Metodologia docent   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Al llarg del curs es realitzen un conjunt d'activitats que han de portar a l'estudiant a l'assoliment dels objectius de l'assignatura. De forma simplificada les activitats poden ser: exposició i debat dels conceptes bàsics de l'assignatura, resolució de problemes, aplicació dels conceptes en la construcció de models, la seva simulació i posterior millora i/o el desenvolupament d'aplicacions per a sistemes robots.
+
+No es farà distinció entre classes de teoria i problemes, ja que en les sessions d'aula s'intercala la presentació de conceptes i la resolució de problemes d'aplicació. Les classes de laboratori són el complement on els estudiants posen en pràctica els conceptes amb la utilització de simuladors i/o sistemes robot real.
+
+A més de les activitats a l'aula i al laboratori, els estudiants han de resoldre i entregar al professorat per a la seva avaluació un conjunt d'exercicis, que permeten consolidar els coneixements adquirits, ser un mecanisme d'autoavaluació i el treball en equip.
+              </Text>
+            </View>
+          </ScrollViewMock>
+        </View>
+      </ReactNativeModal>
+    </TouchableOpacity>
+  </View>,
+]
+`;
+
+exports[`Testing createCards method from Assignatures component returns a rendered list of cards (size=1) with its modal view with '/guia' still not fetched' 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#f2f2f2",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "elevation": 3,
+        "margin": 20,
+        "marginBottom": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "gray",
+              "borderBottomWidth": 1,
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#606060",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Robótica  
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffdfba",
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            ROB - Grup: 11 - Credits: 6 - Semestre: ? 
+          </Text>
+        </View>
+      </View>
+      <ReactNativeModal
+        animationIn="slideInUp"
+        animationInTiming={300}
+        animationOut="slideOutDown"
+        animationOutTiming={300}
+        avoidKeyboard={false}
+        backdropColor="black"
+        backdropOpacity={0.7}
+        backdropTransitionInTiming={300}
+        backdropTransitionOutTiming={300}
+        coverScreen={true}
+        customBackdrop={null}
+        deviceHeight={400}
+        deviceWidth={750}
+        hasBackdrop={true}
+        hideModalContentWhileAnimating={false}
+        isVisible={false}
+        onBackButtonPress={[Function]}
+        onBackdropPress={[Function]}
+        onModalHide={[Function]}
+        onModalShow={[Function]}
+        onModalWillHide={[Function]}
+        onModalWillShow={[Function]}
+        scrollHorizontal={false}
+        scrollOffset={0}
+        scrollOffsetMax={0}
+        scrollTo={null}
+        style={
+          Object {
+            "flex": 1,
+            "margin": 0,
+            "overflow": "visible",
+            "padding": 0,
+          }
+        }
+        supportedOrientations={
+          Array [
+            "portrait",
+            "landscape",
+          ]
+        }
+        swipeThreshold={100}
+        useNativeDriver={false}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fafafa",
+              "borderRadius": 10,
+              "flex": 1,
+              "margin": 20,
+              "marginBottom": 100,
+              "marginTop": 70,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f0f0f0",
+                "padding": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "fontSize": 17,
+                  "fontWeight": "900",
+                }
+              }
+            >
+                Robótica  
+            </Text>
+          </View>
+          <ScrollViewMock>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Professors   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant professors...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Mètode d'avaluació   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant avaluació...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Metodologia docent   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant metodologia...   
+              </Text>
+            </View>
+          </ScrollViewMock>
+        </View>
+      </ReactNativeModal>
+    </TouchableOpacity>
+  </View>,
+]
+`;
+
+exports[`Testing createCards method from Assignatures component returns a rendered list of cards (size=5) with its modal view with '/guia' still not fetched' 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#f2f2f2",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "elevation": 3,
+        "margin": 20,
+        "marginBottom": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "gray",
+              "borderBottomWidth": 1,
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#606060",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Arquitectura de Software  
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffdfba",
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            AS - Grup: 10 - Credits: 6 - Semestre: ? 
+          </Text>
+        </View>
+      </View>
+      <ReactNativeModal
+        animationIn="slideInUp"
+        animationInTiming={300}
+        animationOut="slideOutDown"
+        animationOutTiming={300}
+        avoidKeyboard={false}
+        backdropColor="black"
+        backdropOpacity={0.7}
+        backdropTransitionInTiming={300}
+        backdropTransitionOutTiming={300}
+        coverScreen={true}
+        customBackdrop={null}
+        deviceHeight={400}
+        deviceWidth={750}
+        hasBackdrop={true}
+        hideModalContentWhileAnimating={false}
+        isVisible={false}
+        onBackButtonPress={[Function]}
+        onBackdropPress={[Function]}
+        onModalHide={[Function]}
+        onModalShow={[Function]}
+        onModalWillHide={[Function]}
+        onModalWillShow={[Function]}
+        scrollHorizontal={false}
+        scrollOffset={0}
+        scrollOffsetMax={0}
+        scrollTo={null}
+        style={
+          Object {
+            "flex": 1,
+            "margin": 0,
+            "overflow": "visible",
+            "padding": 0,
+          }
+        }
+        supportedOrientations={
+          Array [
+            "portrait",
+            "landscape",
+          ]
+        }
+        swipeThreshold={100}
+        useNativeDriver={false}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fafafa",
+              "borderRadius": 10,
+              "flex": 1,
+              "margin": 20,
+              "marginBottom": 100,
+              "marginTop": 70,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f0f0f0",
+                "padding": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "fontSize": 17,
+                  "fontWeight": "900",
+                }
+              }
+            >
+                Arquitectura de Software  
+            </Text>
+          </View>
+          <ScrollViewMock>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Professors   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant professors...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Mètode d'avaluació   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant avaluació...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Metodologia docent   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant metodologia...   
+              </Text>
+            </View>
+          </ScrollViewMock>
+        </View>
+      </ReactNativeModal>
+    </TouchableOpacity>
+  </View>,
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#f2f2f2",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "elevation": 3,
+        "margin": 20,
+        "marginBottom": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "gray",
+              "borderBottomWidth": 1,
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#606060",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Habilidades Académicas para el Desarrollo de Proyectos en Inglés  
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#baffc9",
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            ASDP - Grup: 10 - Credits: 6 - Semestre: ? 
+          </Text>
+        </View>
+      </View>
+      <ReactNativeModal
+        animationIn="slideInUp"
+        animationInTiming={300}
+        animationOut="slideOutDown"
+        animationOutTiming={300}
+        avoidKeyboard={false}
+        backdropColor="black"
+        backdropOpacity={0.7}
+        backdropTransitionInTiming={300}
+        backdropTransitionOutTiming={300}
+        coverScreen={true}
+        customBackdrop={null}
+        deviceHeight={400}
+        deviceWidth={750}
+        hasBackdrop={true}
+        hideModalContentWhileAnimating={false}
+        isVisible={false}
+        onBackButtonPress={[Function]}
+        onBackdropPress={[Function]}
+        onModalHide={[Function]}
+        onModalShow={[Function]}
+        onModalWillHide={[Function]}
+        onModalWillShow={[Function]}
+        scrollHorizontal={false}
+        scrollOffset={0}
+        scrollOffsetMax={0}
+        scrollTo={null}
+        style={
+          Object {
+            "flex": 1,
+            "margin": 0,
+            "overflow": "visible",
+            "padding": 0,
+          }
+        }
+        supportedOrientations={
+          Array [
+            "portrait",
+            "landscape",
+          ]
+        }
+        swipeThreshold={100}
+        useNativeDriver={false}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fafafa",
+              "borderRadius": 10,
+              "flex": 1,
+              "margin": 20,
+              "marginBottom": 100,
+              "marginTop": 70,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f0f0f0",
+                "padding": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "fontSize": 17,
+                  "fontWeight": "900",
+                }
+              }
+            >
+                Habilidades Académicas para el Desarrollo de Proyectos en Inglés  
+            </Text>
+          </View>
+          <ScrollViewMock>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Professors   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant professors...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Mètode d'avaluació   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant avaluació...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Metodologia docent   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant metodologia...   
+              </Text>
+            </View>
+          </ScrollViewMock>
+        </View>
+      </ReactNativeModal>
+    </TouchableOpacity>
+  </View>,
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#f2f2f2",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "elevation": 3,
+        "margin": 20,
+        "marginBottom": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "gray",
+              "borderBottomWidth": 1,
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#606060",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Aplicacions i Serveis Web  
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffb3ba",
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            ASW - Grup: 21 - Credits: 6 - Semestre: ? 
+          </Text>
+        </View>
+      </View>
+      <ReactNativeModal
+        animationIn="slideInUp"
+        animationInTiming={300}
+        animationOut="slideOutDown"
+        animationOutTiming={300}
+        avoidKeyboard={false}
+        backdropColor="black"
+        backdropOpacity={0.7}
+        backdropTransitionInTiming={300}
+        backdropTransitionOutTiming={300}
+        coverScreen={true}
+        customBackdrop={null}
+        deviceHeight={400}
+        deviceWidth={750}
+        hasBackdrop={true}
+        hideModalContentWhileAnimating={false}
+        isVisible={false}
+        onBackButtonPress={[Function]}
+        onBackdropPress={[Function]}
+        onModalHide={[Function]}
+        onModalShow={[Function]}
+        onModalWillHide={[Function]}
+        onModalWillShow={[Function]}
+        scrollHorizontal={false}
+        scrollOffset={0}
+        scrollOffsetMax={0}
+        scrollTo={null}
+        style={
+          Object {
+            "flex": 1,
+            "margin": 0,
+            "overflow": "visible",
+            "padding": 0,
+          }
+        }
+        supportedOrientations={
+          Array [
+            "portrait",
+            "landscape",
+          ]
+        }
+        swipeThreshold={100}
+        useNativeDriver={false}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fafafa",
+              "borderRadius": 10,
+              "flex": 1,
+              "margin": 20,
+              "marginBottom": 100,
+              "marginTop": 70,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f0f0f0",
+                "padding": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "fontSize": 17,
+                  "fontWeight": "900",
+                }
+              }
+            >
+                Aplicacions i Serveis Web  
+            </Text>
+          </View>
+          <ScrollViewMock>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Professors   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant professors...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Mètode d'avaluació   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant avaluació...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Metodologia docent   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant metodologia...   
+              </Text>
+            </View>
+          </ScrollViewMock>
+        </View>
+      </ReactNativeModal>
+    </TouchableOpacity>
+  </View>,
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#f2f2f2",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "elevation": 3,
+        "margin": 20,
+        "marginBottom": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "gray",
+              "borderBottomWidth": 1,
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#606060",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Enginyeria de Requisits  
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffba",
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            ER - Grup: 12 - Credits: 6 - Semestre: ? 
+          </Text>
+        </View>
+      </View>
+      <ReactNativeModal
+        animationIn="slideInUp"
+        animationInTiming={300}
+        animationOut="slideOutDown"
+        animationOutTiming={300}
+        avoidKeyboard={false}
+        backdropColor="black"
+        backdropOpacity={0.7}
+        backdropTransitionInTiming={300}
+        backdropTransitionOutTiming={300}
+        coverScreen={true}
+        customBackdrop={null}
+        deviceHeight={400}
+        deviceWidth={750}
+        hasBackdrop={true}
+        hideModalContentWhileAnimating={false}
+        isVisible={false}
+        onBackButtonPress={[Function]}
+        onBackdropPress={[Function]}
+        onModalHide={[Function]}
+        onModalShow={[Function]}
+        onModalWillHide={[Function]}
+        onModalWillShow={[Function]}
+        scrollHorizontal={false}
+        scrollOffset={0}
+        scrollOffsetMax={0}
+        scrollTo={null}
+        style={
+          Object {
+            "flex": 1,
+            "margin": 0,
+            "overflow": "visible",
+            "padding": 0,
+          }
+        }
+        supportedOrientations={
+          Array [
+            "portrait",
+            "landscape",
+          ]
+        }
+        swipeThreshold={100}
+        useNativeDriver={false}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fafafa",
+              "borderRadius": 10,
+              "flex": 1,
+              "margin": 20,
+              "marginBottom": 100,
+              "marginTop": 70,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f0f0f0",
+                "padding": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "fontSize": 17,
+                  "fontWeight": "900",
+                }
+              }
+            >
+                Enginyeria de Requisits  
+            </Text>
+          </View>
+          <ScrollViewMock>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Professors   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant professors...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Mètode d'avaluació   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant avaluació...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Metodologia docent   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant metodologia...   
+              </Text>
+            </View>
+          </ScrollViewMock>
+        </View>
+      </ReactNativeModal>
+    </TouchableOpacity>
+  </View>,
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#f2f2f2",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "elevation": 3,
+        "margin": 20,
+        "marginBottom": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderBottomColor": "gray",
+              "borderBottomWidth": 1,
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#606060",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Robótica  
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#bae1ff",
+              "flex": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <Text>
+            ROB - Grup: 11 - Credits: 6 - Semestre: ? 
+          </Text>
+        </View>
+      </View>
+      <ReactNativeModal
+        animationIn="slideInUp"
+        animationInTiming={300}
+        animationOut="slideOutDown"
+        animationOutTiming={300}
+        avoidKeyboard={false}
+        backdropColor="black"
+        backdropOpacity={0.7}
+        backdropTransitionInTiming={300}
+        backdropTransitionOutTiming={300}
+        coverScreen={true}
+        customBackdrop={null}
+        deviceHeight={400}
+        deviceWidth={750}
+        hasBackdrop={true}
+        hideModalContentWhileAnimating={false}
+        isVisible={false}
+        onBackButtonPress={[Function]}
+        onBackdropPress={[Function]}
+        onModalHide={[Function]}
+        onModalShow={[Function]}
+        onModalWillHide={[Function]}
+        onModalWillShow={[Function]}
+        scrollHorizontal={false}
+        scrollOffset={0}
+        scrollOffsetMax={0}
+        scrollTo={null}
+        style={
+          Object {
+            "flex": 1,
+            "margin": 0,
+            "overflow": "visible",
+            "padding": 0,
+          }
+        }
+        supportedOrientations={
+          Array [
+            "portrait",
+            "landscape",
+          ]
+        }
+        swipeThreshold={100}
+        useNativeDriver={false}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fafafa",
+              "borderRadius": 10,
+              "flex": 1,
+              "margin": 20,
+              "marginBottom": 100,
+              "marginTop": 70,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f0f0f0",
+                "padding": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#606060",
+                  "fontSize": 17,
+                  "fontWeight": "900",
+                }
+              }
+            >
+                Robótica  
+            </Text>
+          </View>
+          <ScrollViewMock>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Professors   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant professors...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Mètode d'avaluació   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant avaluació...   
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "padding": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#202020",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Metodologia docent   
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Carregant metodologia...   
+              </Text>
+            </View>
+          </ScrollViewMock>
+        </View>
+      </ReactNativeModal>
+    </TouchableOpacity>
+  </View>,
+]
+`;
+
+exports[`Testing fetchData method from Assignatures component fetches the '/guia' of each taken subject' for first time and updates component state 1`] = `
+Array [
+  Object {
+    "needToFetch": false,
+  },
+  Object {
+    "ROBguia": Object {
+      "actes_avaluatius": Array [
+        Object {
+          "data": null,
+          "descripcio": "",
+          "fora_horaris": false,
+          "hores_duracio": 0,
+          "hores_estudi": 20,
+          "id": 4041,
+          "nom": "Resolució d'exercicis (entre 3 a 6) avaluables realitzats com a treball personal ",
+          "objectius": Array [
+            4721,
+            4748,
+            4749,
+            4750,
+            4751,
+            4752,
+            4753,
+            4754,
+            4755,
+            4756,
+            4758,
+            4759,
+            4760,
+            4761,
+            4762,
+            4764,
+            4765,
+            4766,
+          ],
+          "setmana": 3,
+          "tipus": "lliurament",
+        },
+        Object {
+          "data": null,
+          "descripcio": "",
+          "fora_horaris": true,
+          "hores_duracio": 3,
+          "hores_estudi": 10,
+          "id": 4042,
+          "nom": "Examens final individuals en hora i aula indica",
+          "objectius": Array [
+            4721,
+            4748,
+            4749,
+            4750,
+            4751,
+            4752,
+            4753,
+            4754,
+            4755,
+            4756,
+            4758,
+            4759,
+            4760,
+            4761,
+            4762,
+            4764,
+            4765,
+            4766,
+          ],
+          "setmana": 15,
+          "tipus": "examen_final",
+        },
+      ],
+      "activitats": Array [
+        Object {
+          "aprenentatge_autonom": Object {
+            "descripcio": "",
+            "hores": 1,
+          },
+          "aprenentatge_dirigit": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "continguts": Array [
+            4227,
+          ],
+          "descripcio": "Participar activament a les sessió presencial. Estudi autònom dels materials proposats. Busqueda d'informació respecte la robòtica, els sistemes robots i les seves aplicacions.",
+          "id": 10611,
+          "laboratori": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "nom": "Desenvolupament Tema 1",
+          "objectius": Array [
+            4721,
+            4748,
+          ],
+          "problemes": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "teoria": Object {
+            "descripcio": "",
+            "hores": 2,
+          },
+        },
+        Object {
+          "aprenentatge_autonom": Object {
+            "descripcio": "",
+            "hores": 5,
+          },
+          "aprenentatge_dirigit": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "continguts": Array [
+            4228,
+          ],
+          "descripcio": "Participar activament en la sessió presencial. Estudi autònom dels materials proposats. Resolució dels problemes proposats.",
+          "id": 10625,
+          "laboratori": Object {
+            "descripcio": "",
+            "hores": 2,
+          },
+          "nom": "Desenvolupament Tema 2",
+          "objectius": Array [
+            4721,
+            4748,
+          ],
+          "problemes": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "teoria": Object {
+            "descripcio": "",
+            "hores": 4,
+          },
+        },
+        Object {
+          "aprenentatge_autonom": Object {
+            "descripcio": "",
+            "hores": 8,
+          },
+          "aprenentatge_dirigit": Object {
+            "descripcio": "",
+            "hores": 2,
+          },
+          "continguts": Array [
+            4229,
+          ],
+          "descripcio": "Participar activament en la sessió presencial. Estudi autònom dels materials proposats. Resolució dels problemes proposats.",
+          "id": 10626,
+          "laboratori": Object {
+            "descripcio": "",
+            "hores": 2,
+          },
+          "nom": "Desenvolupament Tema 3",
+          "objectius": Array [
+            4750,
+            4751,
+          ],
+          "problemes": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "teoria": Object {
+            "descripcio": "",
+            "hores": 4,
+          },
+        },
+        Object {
+          "aprenentatge_autonom": Object {
+            "descripcio": "",
+            "hores": 6,
+          },
+          "aprenentatge_dirigit": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "continguts": Array [
+            4230,
+          ],
+          "descripcio": "Participar activament en la sessió presencial. Estudi autònom dels materials proposats. Resolució dels problemes proposats.",
+          "id": 10627,
+          "laboratori": Object {
+            "descripcio": "",
+            "hores": 4,
+          },
+          "nom": "Desenvolupament Tema 4",
+          "objectius": Array [
+            4750,
+            4751,
+          ],
+          "problemes": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "teoria": Object {
+            "descripcio": "",
+            "hores": 3,
+          },
+        },
+        Object {
+          "aprenentatge_autonom": Object {
+            "descripcio": "",
+            "hores": 8,
+          },
+          "aprenentatge_dirigit": Object {
+            "descripcio": "",
+            "hores": 1,
+          },
+          "continguts": Array [
+            4231,
+          ],
+          "descripcio": "Participar activament en la sessió presencial. Estudi autònom dels materials proposats. Resolució dels problemes proposats.",
+          "id": 10628,
+          "laboratori": Object {
+            "descripcio": "",
+            "hores": 6,
+          },
+          "nom": "Desenvolupament Tema 5",
+          "objectius": Array [
+            4749,
+            4750,
+            4751,
+            4759,
+            4760,
+          ],
+          "problemes": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "teoria": Object {
+            "descripcio": "",
+            "hores": 3,
+          },
+        },
+        Object {
+          "aprenentatge_autonom": Object {
+            "descripcio": "",
+            "hores": 6,
+          },
+          "aprenentatge_dirigit": Object {
+            "descripcio": "",
+            "hores": 1,
+          },
+          "continguts": Array [
+            4232,
+          ],
+          "descripcio": "Participar activament en la sessió presencial. Estudi autònom dels materials proposats. Resolució dels problemes proposats.",
+          "id": 10629,
+          "laboratori": Object {
+            "descripcio": "",
+            "hores": 2,
+          },
+          "nom": "Desenvolupament Tema 6",
+          "objectius": Array [
+            4748,
+            4749,
+            4750,
+            4751,
+            4755,
+          ],
+          "problemes": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "teoria": Object {
+            "descripcio": "",
+            "hores": 4,
+          },
+        },
+        Object {
+          "aprenentatge_autonom": Object {
+            "descripcio": "",
+            "hores": 6,
+          },
+          "aprenentatge_dirigit": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "continguts": Array [
+            4233,
+          ],
+          "descripcio": "Participar activament en la sessió presencial. Estudi autònom dels materials proposats. Resolució dels problemes proposats.",
+          "id": 10630,
+          "laboratori": Object {
+            "descripcio": "",
+            "hores": 4,
+          },
+          "nom": "Desenvolupament Tema 7",
+          "objectius": Array [
+            4752,
+            4755,
+            4760,
+            4761,
+          ],
+          "problemes": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "teoria": Object {
+            "descripcio": "",
+            "hores": 2,
+          },
+        },
+        Object {
+          "aprenentatge_autonom": Object {
+            "descripcio": "",
+            "hores": 6,
+          },
+          "aprenentatge_dirigit": Object {
+            "descripcio": "",
+            "hores": 1,
+          },
+          "continguts": Array [
+            4234,
+          ],
+          "descripcio": "Participar activament en la sessió presencial. Estudi autònom dels materials proposats. Resolució dels problemes proposats.",
+          "id": 10631,
+          "laboratori": Object {
+            "descripcio": "",
+            "hores": 4,
+          },
+          "nom": "Desenvolupament Tema 8",
+          "objectius": Array [
+            4749,
+            4750,
+            4751,
+            4752,
+            4753,
+            4754,
+            4755,
+            4758,
+            4759,
+            4760,
+            4761,
+          ],
+          "problemes": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "teoria": Object {
+            "descripcio": "",
+            "hores": 3,
+          },
+        },
+        Object {
+          "aprenentatge_autonom": Object {
+            "descripcio": "",
+            "hores": 4,
+          },
+          "aprenentatge_dirigit": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "continguts": Array [
+            4235,
+          ],
+          "descripcio": "",
+          "id": 10645,
+          "laboratori": Object {
+            "descripcio": "",
+            "hores": 4,
+          },
+          "nom": "Desenvolupament Tema 9",
+          "objectius": Array [
+            4752,
+            4753,
+            4754,
+            4755,
+            4759,
+            4760,
+          ],
+          "problemes": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "teoria": Object {
+            "descripcio": "",
+            "hores": 2,
+          },
+        },
+        Object {
+          "aprenentatge_autonom": Object {
+            "descripcio": "",
+            "hores": 2,
+          },
+          "aprenentatge_dirigit": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "continguts": Array [
+            4236,
+          ],
+          "descripcio": "Participar activament en les sessió presencial. Estudi autònom dels materials proposats. Resolució dels problemes proposats.",
+          "id": 10664,
+          "laboratori": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "nom": "Desenvolupament Tema 10",
+          "objectius": Array [
+            4756,
+            4758,
+            4759,
+            4762,
+            4764,
+          ],
+          "problemes": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "teoria": Object {
+            "descripcio": "",
+            "hores": 1,
+          },
+        },
+        Object {
+          "aprenentatge_autonom": Object {
+            "descripcio": "",
+            "hores": 4,
+          },
+          "aprenentatge_dirigit": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "continguts": Array [
+            4237,
+          ],
+          "descripcio": "Participar activament en les sessió presencial. Estudi autònom dels materials proposats. Resolució dels problemes proposats",
+          "id": 10665,
+          "laboratori": Object {
+            "descripcio": "",
+            "hores": 2,
+          },
+          "nom": "Desenvolupament Tema 11",
+          "objectius": Array [
+            4752,
+            4756,
+            4758,
+            4759,
+            4760,
+            4761,
+            4762,
+            4764,
+            4765,
+            4766,
+          ],
+          "problemes": Object {
+            "descripcio": "",
+            "hores": 0,
+          },
+          "teoria": Object {
+            "descripcio": "",
+            "hores": 2,
+          },
+        },
+      ],
+      "addenda_continguts": "",
+      "addenda_metodologia_avaluacio": "",
+      "addenda_metodologia_docent": "",
+      "addenda_pla_contingencia": "",
+      "bibliografia": Object {
+        "basica": Array [
+          Object {
+            "any_bib": "2017",
+            "autor": "Corke, P.I",
+            "disponible_biblioteca": true,
+            "edicio": "2nd ed",
+            "editorial": "Springer",
+            "id": 4103,
+            "isbn": "9783319544120",
+            "titol": "Robotics, vision and control: fundamental algorithms in Matlab",
+            "url": "http://cataleg.upc.edu/record=b1511469~S1*cat",
+          },
+          Object {
+            "any_bib": "2011",
+            "autor": "Siegwart, R.; Nourbakhsh, I.R.; Scaramuzza, D",
+            "disponible_biblioteca": true,
+            "edicio": "2nd ed",
+            "editorial": "MIT Press",
+            "id": 4102,
+            "isbn": "9780262295321",
+            "titol": "Introduction to autonomous mobile robots",
+            "url": "http://cataleg.upc.edu/record=b1412720~S1*cat",
+          },
+          Object {
+            "any_bib": "2016",
+            "autor": "Siciliano, B.; Khatib, O",
+            "disponible_biblioteca": true,
+            "edicio": "",
+            "editorial": "Springer",
+            "id": 4104,
+            "isbn": "978331932552",
+            "titol": "Springer handbook of robotics",
+            "url": "http://cataleg.upc.edu/record=b1504689~S1*cat",
+          },
+          Object {
+            "any_bib": "2007",
+            "autor": "Barrientos, A. [et al.]",
+            "disponible_biblioteca": true,
+            "edicio": "2a ed",
+            "editorial": "McGraw-Hill",
+            "id": 4101,
+            "isbn": "9788448156367",
+            "titol": "Fundamentos de robótica",
+            "url": "http://cataleg.upc.edu/record=b1306284~S1*cat",
+          },
+          Object {
+            "any_bib": "2000",
+            "autor": "Murphy, R.R",
+            "disponible_biblioteca": true,
+            "edicio": "",
+            "editorial": "MIT Press",
+            "id": 4105,
+            "isbn": "9780262133838",
+            "titol": "Introduction to AI robotics",
+            "url": "http://cataleg.upc.edu/record=b1193993~S1*cat",
+          },
+        ],
+        "complementaria": Array [],
+      },
+      "capacitats_previes": "Àrea de Matemàtiques
+
+* Conèixer i saber aplicar el concepte de derivada i derivada parcial.
+* Saber els mètodes elementals de representació gràfica de funcions (asímptotes, màxims, mínims, ...).
+* Conèixer les propietats elementals de les funcions trigonomètriques.
+* Conèixer els conceptes bàsics de manipulació i operació amb matrius.
+
+Àrea de Física
+
+* Conèixer el conceptes i les lleis bàsiques de l'electricitat, el magnetisme i l'electromagnetisme (llei de Coulomb, llei d'Ohm, camp elèctric i magnètic, carga elèctrica, dipol magnètic, potencial elèctric, diferencia de potencial, tensió elèctrica, corrent, resistència i conductància elèctrica, i les seves unitats en el sistema M.K.S.
+* Conèixer els trets més significatius del comportament físic dels dispositius semiconductors: la unió PN, el transistor bipolar i el transistor MOS.
+
+Àrea de Programació i Estructura de Dades
+
+* Saber especificar, dissenyar e implementar algoritmes senzills amb un llenguatge de programació imperatiu.
+* Saber construir programes correctes, eficients i estructurats.
+* Conèixer els conceptes de llenguatges interpretats i llenguatges compilats.
+* Conèixer els algoritmes de recerca en estructures de dades (taules, llistes, arbres, ...).
+
+Àrea de Arquitectura i Tecnologia de Computadors
+
+* Conèixer a nivell funcional les diferents portes lògiques.
+* Saber analitzar e implementar sistemes lògics combinacionals i seqüencials simples.
+* Saber minimitzar i sintetitzar funcions lògiques.
+* Conèixer la estructura bàsica d'un computador.
+* Conèixer el subsistema de entrada/sortida i interrupcions del computador.
+* Conèixer que és un sistema operatiu i les seves funcions.
+* Conèixer el concepte de procés, concurrència, i comunicació i sincronització entre processos.",
+      "competencies": "https://api.fib.upc.edu/v2/competencies/?assignatura=ROB",
+      "continguts": Array [
+        Object {
+          "descripcio": "Robots i Robòtica. Evolució dels robots. Incidència de la robòtica en la societat actual.",
+          "id": 4227,
+          "nom": "Introducció",
+        },
+        Object {
+          "descripcio": "Components.  Estructures i característiques dels robots. ",
+          "id": 4228,
+          "nom": "Morfologia del robot.  ",
+        },
+        Object {
+          "descripcio": "Transformacions geomètriques. Parametres DH. Cinemàtica directa. Cinemàtica Inversa. Cinemàtica diferencial.",
+          "id": 4229,
+          "nom": "Cinemàtica dels robots manipuladors",
+        },
+        Object {
+          "descripcio": "Camins i trajectòries. Trajectòries a l'espai d'articulacions. Trajectòries a l'espai cartesià.",
+          "id": 4230,
+          "nom": "Generació de trajectòries",
+        },
+        Object {
+          "descripcio": "Control a l'espai d'articulacions. Arquitectura de control d'un manipulador. Entorns i llenguatges de programació de robots industrial.",
+          "id": 4231,
+          "nom": "Programació i Control del robot",
+        },
+        Object {
+          "descripcio": "Mecanismos de locomoció. Tipus de robot mòbils. Cinemàtica directa i inversa. Maniobrabilitat.",
+          "id": 4232,
+          "nom": "Robots mòbils",
+        },
+        Object {
+          "descripcio": "Classificació dels sensors. Característiques. Sensors de profunditat. Sensors d'orientació.",
+          "id": 4233,
+          "nom": "Percepció de l'entorn",
+        },
+        Object {
+          "descripcio": "Navegació reactiva. Evasió d'obstacles. Planificación basada en mapes. ",
+          "id": 4234,
+          "nom": "Navegació de robots mòbils",
+        },
+        Object {
+          "descripcio": "Sistemes de localització (GPS, US, IR, rutes fixes). Navegació basada en punts de referència. ",
+          "id": 4235,
+          "nom": "Localització del robot mòbil",
+        },
+        Object {
+          "descripcio": "Robòtica Industrial. Robòtica de serveis. Robòtica d'exploració. Robòtica mèdica i assistencial.",
+          "id": 4236,
+          "nom": "Aplicacions de la robòtica",
+        },
+        Object {
+          "descripcio": "Requeriments. Disseny. Implicacions ètiques i socials. Fiabilitat i seguretat.",
+          "id": 4237,
+          "nom": "Desenvolupament d'un projecte de robotització",
+        },
+      ],
+      "credits": 6,
+      "departament": "ESAII",
+      "descripcio": "Adquirir els coneixements bàsics sobre els robots manipuladores i mòbils fent èmfasis en els aspectes informàtics de la percepció, de la planificació i de l'actuació. Conèixer les principals àrees d'aplicació de la robòtica i les seves demandes, tant en l'àmbit industrial, com dels serveis. Adquirir la capacitat de dissenyar i desenvolupar sistemes basats en robots que permetin automatitzar una tasca o procés",
+      "hores": Object {
+        "addicional": null,
+        "aprenentatge_autonom": 5.6,
+        "aprenentatge_dirigit": 0.4,
+        "laboratori": 2,
+        "problemes": 0,
+        "teoria": 2,
+      },
+      "id": "ROB",
+      "mail": "",
+      "metodologia_avaluacio": "L'avaluació de l'assignatura es realitza a partir de la resolució de problemes proposats pel professorat (P), exàmens (E), les activitats de laboratori (L) i activitats de caràcter voluntari (A, participació a classe, treball específic o altres activitats). 
+
+La nota de l'assignatura de Robòtica (NA) s'obté aplicant la fórmula: 
+
+NA= mínim ( 10 , 0.3*P + 0.4*F + 0.3*(L + A) ) 
+
+On: 
+L : Nota de laboratori 
+F : Nota d' Examens 
+P : Nota de Problemes
+A : Nota de participació en classe i realització de problemes pràctics o treballs específics (de caràcter voluntari). La nota pot anar de 0 a 3. ",
+      "metodologia_docent": "Al llarg del curs es realitzen un conjunt d'activitats que han de portar a l'estudiant a l'assoliment dels objectius de l'assignatura. De forma simplificada les activitats poden ser: exposició i debat dels conceptes bàsics de l'assignatura, resolució de problemes, aplicació dels conceptes en la construcció de models, la seva simulació i posterior millora i/o el desenvolupament d'aplicacions per a sistemes robots.
+
+No es farà distinció entre classes de teoria i problemes, ja que en les sessions d'aula s'intercala la presentació de conceptes i la resolució de problemes d'aplicació. Les classes de laboratori són el complement on els estudiants posen en pràctica els conceptes amb la utilització de simuladors i/o sistemes robot real.
+
+A més de les activitats a l'aula i al laboratori, els estudiants han de resoldre i entregar al professorat per a la seva avaluació un conjunt d'exercicis, que permeten consolidar els coneixements adquirits, ser un mecanisme d'autoavaluació i el treball en equip.",
+      "nom": "Robòtica",
+      "objectius": Array [
+        Object {
+          "competencies": Array [
+            "G7.1",
+            "CEC2.1",
+            "G7.2",
+            "G7.3",
+            "G8.3",
+            "CT1.2B",
+          ],
+          "id": 4748,
+          "subobjectius": Array [],
+          "valor": "Conèixer els elements que formen un sistema robot, les diferents alternatives, i el seu funcionament.",
+        },
+        Object {
+          "competencies": Array [
+            "G7.1",
+            "CES2.1",
+            "CES2.2",
+            "CT8.1",
+            "CT5.2",
+            "CT5.4",
+            "CT5.5",
+            "G7.2",
+            "G7.3",
+            "G8.3",
+            "CT5.3",
+            "CT5.6",
+          ],
+          "id": 4721,
+          "subobjectius": Array [],
+          "valor": "Conèixer l'evolució, estat actual i tendències de la robòtica.",
+        },
+        Object {
+          "competencies": Array [
+            "CT5.2",
+            "CT5.4",
+            "CT5.3",
+            "CT1.1B",
+            "CT1.1A",
+          ],
+          "id": 4749,
+          "subobjectius": Array [],
+          "valor": "Conèixer les diferents formes de programació del robots i les seves característiques.",
+        },
+        Object {
+          "competencies": Array [
+            "CEC2.1",
+            "CT1.2A",
+            "CT1.2C",
+            "CCO2.1",
+            "CT4.1",
+            "CT4.2",
+            "CCO2.2",
+            "CCO3.1",
+            "CCO3.2",
+            "CT4.3",
+            "CT5.6",
+            "CT1.2B",
+          ],
+          "id": 4750,
+          "subobjectius": Array [],
+          "valor": "Conèixer i saber diferenciar els diferents nivells de planificació i control del moviment del robot.",
+        },
+        Object {
+          "competencies": Array [
+            "CT1.2A",
+            "CT1.2C",
+            "CCO1.1",
+            "CCO1.3",
+            "CT4.1",
+            "CT4.2",
+            "CT4.3",
+            "CT1.1B",
+            "CT1.1A",
+          ],
+          "id": 4751,
+          "subobjectius": Array [],
+          "valor": "Conèixer les tècniques que permeten definir, calcular i generar trajectòries adequades per als robots, i la seva implementació algorítmica.",
+        },
+        Object {
+          "competencies": Array [
+            "G7.1",
+            "G7.2",
+            "G7.3",
+            "G8.3",
+            "CT1.2B",
+          ],
+          "id": 4752,
+          "subobjectius": Array [],
+          "valor": "Conèixer els sensors i sistemes de percepció per a la interacció amb l'entorn per les aplicacions més freqüents",
+        },
+        Object {
+          "competencies": Array [
+            "CEC2.1",
+            "CT1.2A",
+            "CT1.2C",
+            "CCO2.1",
+            "CT4.1",
+            "CT4.2",
+            "CT5.2",
+            "CT5.4",
+            "CCO2.2",
+            "CCO3.1",
+            "CCO3.2",
+            "CT4.3",
+            "CT5.3",
+            "CT5.6",
+            "CT1.1B",
+            "CT1.1A",
+          ],
+          "id": 4753,
+          "subobjectius": Array [],
+          "valor": "Conèixer la problemàtica i les estratègies de la navegació de vehicles guiats i autònoms",
+        },
+        Object {
+          "competencies": Array [
+            "CT1.2A",
+            "CT1.2C",
+            "CT4.1",
+            "CT4.2",
+            "CT5.2",
+            "CT5.4",
+            "CT5.5",
+            "CT4.3",
+            "CT5.3",
+            "CT5.6",
+            "CT1.1B",
+            "CT1.1A",
+          ],
+          "id": 4754,
+          "subobjectius": Array [],
+          "valor": "Saber com s'utilitzen les tècniques de planificació en el camp de la robòtica",
+        },
+        Object {
+          "competencies": Array [
+            "G7.1",
+            "CT2.5",
+            "G7.2",
+            "G7.3",
+            "G8.3",
+            "CT1.2B",
+          ],
+          "id": 4755,
+          "subobjectius": Array [],
+          "valor": "Conèixer els requeriments sensorials dels robot mòbils",
+        },
+        Object {
+          "competencies": Array [
+            "G9.1",
+            "G9.3",
+            "CT8.1",
+            "CT5.2",
+            "CT5.4",
+            "CT5.5",
+            "G9.2",
+            "CT5.3",
+            "CT5.6",
+          ],
+          "id": 4756,
+          "subobjectius": Array [],
+          "valor": "Conèixer els requeriments de les aplicacions més habituals de la robòtica i saber discriminar quines tasques són susceptibles de ser robotitzades.",
+        },
+        Object {
+          "competencies": Array [
+            "G9.1",
+            "G9.3",
+            "CT5.2",
+            "CT5.4",
+            "CT5.5",
+            "G9.2",
+            "CT5.3",
+            "CT5.6",
+            "CT1.2B",
+          ],
+          "id": 4758,
+          "subobjectius": Array [],
+          "valor": "Ser capaç d'identificar els requeriments d'una tasca que ha de ser robotitzada",
+        },
+        Object {
+          "competencies": Array [
+            "G9.1",
+            "G9.3",
+            "CT5.2",
+            "CT5.4",
+            "G9.2",
+            "CT5.3",
+            "CT1.1B",
+            "CT1.1A",
+          ],
+          "id": 4759,
+          "subobjectius": Array [],
+          "valor": "Saber programar i utilitzar els robots per donar solució a la tasca proposada",
+        },
+        Object {
+          "competencies": Array [
+            "G7.1",
+            "G9.1",
+            "G9.3",
+            "CT1.2A",
+            "CT1.2C",
+            "CT2.1",
+            "G5.1",
+            "CCO1.1",
+            "CCO1.3",
+            "CT5.2",
+            "CT5.4",
+            "CT5.5",
+            "G7.2",
+            "G7.3",
+            "G9.2",
+            "CT5.3",
+            "CT1.1B",
+            "CT1.2B",
+            "CT1.1A",
+          ],
+          "id": 4760,
+          "subobjectius": Array [],
+          "valor": "Saber integrar la informació subministrada pels sensors en el programa del robot",
+        },
+        Object {
+          "competencies": Array [
+            "G7.1",
+            "G9.1",
+            "G9.3",
+            "CT5.2",
+            "CT5.4",
+            "CT5.5",
+            "G7.2",
+            "G7.3",
+            "G9.2",
+            "CT5.3",
+            "CT5.6",
+            "CT1.2B",
+          ],
+          "id": 4761,
+          "subobjectius": Array [],
+          "valor": "Saber triar els tipus de sensors necessaris per a cada aplicació",
+        },
+        Object {
+          "competencies": Array [
+            "G9.1",
+            "G9.3",
+            "G9.2",
+            "CT1.2B",
+          ],
+          "id": 4762,
+          "subobjectius": Array [],
+          "valor": "Conèixer els factors que incideixen sobre la fiabilitat d'un robot i com minimitzar el seu efecte",
+        },
+        Object {
+          "competencies": Array [
+            "G9.1",
+            "G9.3",
+            "CT5.2",
+            "CT5.4",
+            "CT5.5",
+            "G8.3",
+            "G9.2",
+            "CT5.3",
+            "CT5.6",
+          ],
+          "id": 4764,
+          "subobjectius": Array [],
+          "valor": "Conèixer els aspectes relatius a la seguretat de sistemes robòtics",
+        },
+        Object {
+          "competencies": Array [
+            "CES1.2",
+            "CES2.1",
+            "CES2.2",
+            "CT3.6",
+            "CES1.8",
+            "CT3.5",
+          ],
+          "id": 4765,
+          "subobjectius": Array [],
+          "valor": "Conèixer la metodologia del desenvolupament d'un projecte de robotització",
+        },
+        Object {
+          "competencies": Array [
+            "G9.1",
+            "G9.3",
+            "CEC2.1",
+            "CES1.2",
+            "CES2.1",
+            "CES2.2",
+            "CT8.1",
+            "G5.1",
+            "CT3.6",
+            "CCO3.1",
+            "CCO3.2",
+            "G8.3",
+            "G9.2",
+            "CES1.8",
+            "CT3.5",
+          ],
+          "id": 4766,
+          "subobjectius": Array [],
+          "valor": "Disseny de projectes de robotització d'una tasca determinada",
+        },
+      ],
+      "ordre_activitats": Array [
+        10611,
+        10625,
+        10626,
+        10627,
+        10628,
+        10629,
+        10630,
+        10631,
+        10645,
+        10664,
+        10665,
+        4041,
+        4042,
+      ],
+      "professors": Array [
+        Object {
+          "email": "antonio.b.martinez@upc.edu",
+          "is_responsable": true,
+          "nom": "Antonio Benito Martínez Velasco",
+        },
+        Object {
+          "email": "cecilio.angulo@upc.edu",
+          "is_responsable": false,
+          "nom": "Cecilio Angulo Bahon",
+        },
+        Object {
+          "email": "marc.roig.sebe@upc.edu",
+          "is_responsable": false,
+          "nom": "Marc Roig Sebé",
+        },
+      ],
+      "urls": Array [
+        Object {
+          "descripcio": "Federació Internacional de Robòtica. Entitat que promou, la recerca i desenvolupamnet, l'us i la coperació internacional, en tots els àmbits de la robòtica. ",
+          "url": "http://www.ifr.org",
+        },
+        Object {
+          "descripcio": "Portal de la Xarxa Europea de promoció de la Robòtica tant en l'àmbit formatiu com d'investigació.",
+          "url": "http://www.euron.org",
+        },
+        Object {
+          "descripcio": "Portal que agrupa els fabricants i usuaris de sistemes i components robots.",
+          "url": "http://www.roboticsonline.com/",
+        },
+      ],
+      "web": "",
+    },
+  },
+]
+`;
+
+exports[`Testing renderProfs method from Assignatures component returns a render list of professors sorted and classified by 'is_responsable' 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "padding": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": 14,
+        }
+      }
+    >
+      Antonio Benito Martínez Velasco (Responsable) 
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": 14,
+        }
+      }
+    >
+      antonio.b.martinez@upc.edu
+    </Text>
+  </View>,
+  <View
+    style={
+      Object {
+        "padding": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": 14,
+        }
+      }
+    >
+      Cecilio Angulo Bahon
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": 14,
+        }
+      }
+    >
+      cecilio.angulo@upc.edu
+    </Text>
+  </View>,
+  <View
+    style={
+      Object {
+        "padding": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": 14,
+        }
+      }
+    >
+      Marc Roig Sebé
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": 14,
+        }
+      }
+    >
+      marc.roig.sebe@upc.edu
+    </Text>
+  </View>,
+]
+`;
+
+exports[`Testing renderProfs method from Assignatures component returns a render list of professors with the size defined in settings 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "padding": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": 12,
+        }
+      }
+    >
+      Antonio Benito Martínez Velasco (Responsable) 
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": 12,
+        }
+      }
+    >
+      antonio.b.martinez@upc.edu
+    </Text>
+  </View>,
+  <View
+    style={
+      Object {
+        "padding": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": 12,
+        }
+      }
+    >
+      Cecilio Angulo Bahon
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": 12,
+        }
+      }
+    >
+      cecilio.angulo@upc.edu
+    </Text>
+  </View>,
+  <View
+    style={
+      Object {
+        "padding": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": 12,
+        }
+      }
+    >
+      Marc Roig Sebé
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+          "fontSize": 12,
+        }
+      }
+    >
+      marc.roig.sebe@upc.edu
+    </Text>
+  </View>,
+]
+`;

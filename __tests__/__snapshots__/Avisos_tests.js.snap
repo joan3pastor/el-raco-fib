@@ -1,0 +1,3566 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Avisos component renders correctly with any 'avisos' and 1 'assignatures' 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#064283",
+        "elevation": 5,
+        "height": 55,
+      }
+    }
+  >
+    <GridNB>
+      <ColumnNB
+        key="Tots"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#1672a3",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 375,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 Tots 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ROB"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 375,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ROB 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+    </GridNB>
+  </View>
+  <FlatList
+    ListEmptyComponent={
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "paddingTop": 20,
+          }
+        }
+      >
+        <Text>
+             No tens avisos.   
+        </Text>
+      </View>
+    }
+    data={Array []}
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    onRefresh={[Function]}
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+  <ReactNativeModal
+    animationIn="slideInUp"
+    animationInTiming={300}
+    animationOut="slideOutDown"
+    animationOutTiming={300}
+    avoidKeyboard={false}
+    backdropColor="black"
+    backdropOpacity={0.7}
+    backdropTransitionInTiming={300}
+    backdropTransitionOutTiming={300}
+    coverScreen={true}
+    customBackdrop={null}
+    deviceHeight={1334}
+    deviceWidth={750}
+    hasBackdrop={true}
+    hideModalContentWhileAnimating={true}
+    isVisible={false}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalShow={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "borderRadius": 15,
+        "margin": 25,
+        "marginBottom": 140,
+        "marginTop": 90,
+        "overflow": "hidden",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    useNativeDriver={true}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fdfdfd",
+          "flex": 1,
+          "padding": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#505050",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          }
+        }
+      />
+      <ScrollViewMock
+        style={
+          Object {
+            "borderTopWidth": 1,
+            "flex": 1,
+            "marginTop": 8,
+            "paddingTop": 12,
+          }
+        }
+      >
+        <Text
+          selectable={true}
+          style={
+            Object {
+              "color": "#454545",
+              "fontSize": 14,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          undefined
+        </Text>
+        <View
+          style={
+            Object {
+              "margin": 5,
+            }
+          }
+        />
+      </ScrollViewMock>
+      <Text
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "fontSize": 14,
+            "fontStyle": "italic",
+            "paddingRight": 8,
+            "paddingTop": 3,
+          }
+        }
+      />
+    </View>
+  </ReactNativeModal>
+</View>
+`;
+
+exports[`Testing Avisos component renders correctly with any 'avisos' and 5 'assignatures' 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#064283",
+        "elevation": 5,
+        "height": 55,
+      }
+    }
+  >
+    <GridNB>
+      <ColumnNB
+        key="Tots"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#1672a3",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 Tots 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="AS"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 AS 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ASDP"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ASDP 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ASW"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ASW 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ER"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ER 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ROB"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ROB 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+    </GridNB>
+  </View>
+  <FlatList
+    ListEmptyComponent={
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "paddingTop": 20,
+          }
+        }
+      >
+        <Text>
+             No tens avisos.   
+        </Text>
+      </View>
+    }
+    data={Array []}
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    onRefresh={[Function]}
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+  <ReactNativeModal
+    animationIn="slideInUp"
+    animationInTiming={300}
+    animationOut="slideOutDown"
+    animationOutTiming={300}
+    avoidKeyboard={false}
+    backdropColor="black"
+    backdropOpacity={0.7}
+    backdropTransitionInTiming={300}
+    backdropTransitionOutTiming={300}
+    coverScreen={true}
+    customBackdrop={null}
+    deviceHeight={1334}
+    deviceWidth={750}
+    hasBackdrop={true}
+    hideModalContentWhileAnimating={true}
+    isVisible={false}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalShow={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "borderRadius": 15,
+        "margin": 25,
+        "marginBottom": 140,
+        "marginTop": 90,
+        "overflow": "hidden",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    useNativeDriver={true}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fdfdfd",
+          "flex": 1,
+          "padding": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#505050",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          }
+        }
+      />
+      <ScrollViewMock
+        style={
+          Object {
+            "borderTopWidth": 1,
+            "flex": 1,
+            "marginTop": 8,
+            "paddingTop": 12,
+          }
+        }
+      >
+        <Text
+          selectable={true}
+          style={
+            Object {
+              "color": "#454545",
+              "fontSize": 14,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          undefined
+        </Text>
+        <View
+          style={
+            Object {
+              "margin": 5,
+            }
+          }
+        />
+      </ScrollViewMock>
+      <Text
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "fontSize": 14,
+            "fontStyle": "italic",
+            "paddingRight": 8,
+            "paddingTop": 3,
+          }
+        }
+      />
+    </View>
+  </ReactNativeModal>
+</View>
+`;
+
+exports[`Testing Avisos component renders correctly with any 'avisos' and any 'assignatures' 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#064283",
+        "elevation": 5,
+        "height": 55,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fafafa",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text>
+         No tens avisos.   
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Testing Avisos component renders correctly with many 'avisos' and 5 'assignatures' [tab_selected=ROB] 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#064283",
+        "elevation": 5,
+        "height": 55,
+      }
+    }
+  >
+    <GridNB>
+      <ColumnNB
+        key="Tots"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 Tots 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="AS"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 AS 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ASDP"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ASDP 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ASW"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ASW 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ER"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ER 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ROB"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#1672a3",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ROB 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+    </GridNB>
+  </View>
+  <FlatList
+    ListEmptyComponent={
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "paddingTop": 20,
+          }
+        }
+      >
+        <Text>
+             No tens avisos.   
+        </Text>
+      </View>
+    }
+    data={
+      Array [
+        Object {
+          "adjunts": Array [
+            Object {
+              "data_modificacio": "2020-06-10T09:35:02",
+              "mida": 72873,
+              "nom": "Notas_Robotica_Final_no_revisadas.pdf",
+              "tipus_mime": "application/pdf",
+              "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/85849",
+            },
+          ],
+          "codi_assig": "ROB",
+          "data_caducitat": "2020-07-17T00:00:00",
+          "data_insercio": "2020-06-10T00:00:00",
+          "data_modificacio": "2020-06-10T16:35:02",
+          "id": 109554,
+          "text": "<p>Si teniu qualsevol aclariment contacteu amb els professors responsables del tema.</p>
+<p></p>
+<p>Antonio</p>",
+          "titol": "Notas Robotica: Finales ",
+        },
+        Object {
+          "adjunts": Array [],
+          "codi_assig": "ROB",
+          "data_caducitat": "2020-07-17T00:00:00",
+          "data_insercio": "2020-04-11T00:00:00",
+          "data_modificacio": "2020-04-11T18:20:04",
+          "id": 106950,
+          "text": "<p>Aquest annex a la guia docent de l&#39;assignatura és vigent durant el període d&#39;excepcionalitat declarat per &#34;Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19&#34;</p>
+<p> A)  Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en els continguts, activitats i metodologia docent.</p>
+<p> Activitats:</p>
+<p> a)    Projectes a desemvolupar durant les sessions de laboratory.</p>
+<ol><li> SPK: Projecte sobre braços Robot </li><li>SPMR: Projecte sobre Robot Mobiles SPMR (estará dividit, part Cinematica i Intelligencia Artificial)</li></ol>
+<p>b)    Taskes (Todos) que l&#39;alumne haura de fer.</p>
+<p>c)    Actitud de l&#39;alumne en front de la asignatura.</p>
+<p>Metodologia:</p>
+<p> La clases tant de Teoria com de Laboratory serán no presencials, pero sí assistides per el profesor utilitzant Videoconferencia. Els alumnes compartirán les seves pantalles de ordinador per que el profesor els pugi ajudar.  </p>
+<p>B) Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en el mètode d&#39;avaluació.</p>
+<p>NF&#61; 0.1 x Actitud &#43; 0.3 x Todos &#43; 0.3 x SPK &#43; 0.3 SPMR</p>
+<p>Antonio</p>
+<p></p>
+<p> </p>",
+          "titol": "&quot;Addenda a la guia docent de l'assignatura. Quadrimestre de primavera 2019-2020",
+        },
+        Object {
+          "adjunts": Array [
+            Object {
+              "data_modificacio": "2020-03-30T03:20:04",
+              "mida": 274888,
+              "nom": "Jacobians_FIB.mlx",
+              "tipus_mime": "text/plain",
+              "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/83608",
+            },
+            Object {
+              "data_modificacio": "2020-03-30T03:20:04",
+              "mida": 5699167,
+              "nom": "Jacobians_FIB.pdf",
+              "tipus_mime": "application/pdf",
+              "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/83609",
+            },
+          ],
+          "codi_assig": "ROB",
+          "data_caducitat": "2020-07-17T00:00:00",
+          "data_insercio": "2020-03-30T00:00:00",
+          "data_modificacio": "2020-03-30T10:20:04",
+          "id": 106342,
+          "text": "",
+          "titol": "Session_6T: Jacobians",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    onRefresh={[Function]}
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+  <ReactNativeModal
+    animationIn="slideInUp"
+    animationInTiming={300}
+    animationOut="slideOutDown"
+    animationOutTiming={300}
+    avoidKeyboard={false}
+    backdropColor="black"
+    backdropOpacity={0.7}
+    backdropTransitionInTiming={300}
+    backdropTransitionOutTiming={300}
+    coverScreen={true}
+    customBackdrop={null}
+    deviceHeight={1334}
+    deviceWidth={750}
+    hasBackdrop={true}
+    hideModalContentWhileAnimating={true}
+    isVisible={false}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalShow={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "borderRadius": 15,
+        "margin": 25,
+        "marginBottom": 140,
+        "marginTop": 90,
+        "overflow": "hidden",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    useNativeDriver={true}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fdfdfd",
+          "flex": 1,
+          "padding": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#505050",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          }
+        }
+      />
+      <ScrollViewMock
+        style={
+          Object {
+            "borderTopWidth": 1,
+            "flex": 1,
+            "marginTop": 8,
+            "paddingTop": 12,
+          }
+        }
+      >
+        <Text
+          selectable={true}
+          style={
+            Object {
+              "color": "#454545",
+              "fontSize": 14,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          undefined
+        </Text>
+        <View
+          style={
+            Object {
+              "margin": 5,
+            }
+          }
+        />
+      </ScrollViewMock>
+      <Text
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "fontSize": 14,
+            "fontStyle": "italic",
+            "paddingRight": 8,
+            "paddingTop": 3,
+          }
+        }
+      />
+    </View>
+  </ReactNativeModal>
+</View>
+`;
+
+exports[`Testing Avisos component renders correctly with many 'avisos' and 5 'assignatures' [tab_selected=Tots] 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#064283",
+        "elevation": 5,
+        "height": 55,
+      }
+    }
+  >
+    <GridNB>
+      <ColumnNB
+        key="Tots"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#1672a3",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 Tots 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="AS"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 AS 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ASDP"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ASDP 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ASW"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ASW 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ER"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ER 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ROB"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ROB 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+    </GridNB>
+  </View>
+  <FlatList
+    ListEmptyComponent={
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "paddingTop": 20,
+          }
+        }
+      >
+        <Text>
+             No tens avisos.   
+        </Text>
+      </View>
+    }
+    data={
+      Array [
+        Object {
+          "adjunts": Array [],
+          "codi_assig": "ASDP",
+          "data_caducitat": "2020-08-28T11:48:50",
+          "data_insercio": "2020-06-29T11:48:50",
+          "data_modificacio": "2020-06-29T11:48:50",
+          "id": 109925,
+          "text": "Text de l'avís",
+          "titol": "Notes finals definitives",
+        },
+        Object {
+          "adjunts": Array [
+            Object {
+              "data_modificacio": "2020-06-10T09:35:02",
+              "mida": 72873,
+              "nom": "Notas_Robotica_Final_no_revisadas.pdf",
+              "tipus_mime": "application/pdf",
+              "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/85849",
+            },
+          ],
+          "codi_assig": "ROB",
+          "data_caducitat": "2020-07-17T00:00:00",
+          "data_insercio": "2020-06-10T00:00:00",
+          "data_modificacio": "2020-06-10T16:35:02",
+          "id": 109554,
+          "text": "<p>Si teniu qualsevol aclariment contacteu amb els professors responsables del tema.</p>
+<p></p>
+<p>Antonio</p>",
+          "titol": "Notas Robotica: Finales ",
+        },
+        Object {
+          "adjunts": Array [],
+          "codi_assig": "ASDP",
+          "data_caducitat": "2020-07-31T00:00:00",
+          "data_insercio": "2020-04-14T00:00:00",
+          "data_modificacio": "2020-04-14T18:03:06",
+          "id": 107124,
+          "text": "<p>Aquest annex a la guia docent de l&#39;assignatura és vigent durant el període d&#39;excepcionalitat declarat per &#34;Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19&#34;</p>
+<p>A) Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en els continguts, activitats i metodologia docent.</p>
+<p>No s&#39;han introduït canvis significatius als continguts, a les activitats ni a la metodologia docent més enllà de l&#39;adaptació al mode no presencial.</p>
+<p>B) Canvis, respecte a la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en el mètode d&#39;avaluació.</p>
+<p>No hi ha canvis significatius en el mètode d&#39;avaluació, més enllà de l&#39;adaptació al mode no presencial. Per tant, es mantenen els actes d&#39;avaluació amb els percentatges tal com apareixen a la guia docent. Cal tenir en compte el següent:</p>
+<p>1. La participació a classe (i control del treball personal) es cobrirà amb:</p>
+<p>- una nota del període presencial</p>
+<p>- una nota de les entregues que s&#39;estan fent al Racó</p>
+<p>- una nota d&#39;un breu informe de l&#39;estudiant sobre el treball personal i els continguts de l&#39;assignatura cap al final del quadrimestre.</p>
+<p>2. Primer examen parcial de l&#39;assignatura.</p>
+<p>- Data: 28 d&#39;abril de 2020, 14:00-16:00 hores.</p>
+<p>- Consistirà en: (a) activitats lliurables al Racó, i (b) prova realitzada de manera síncrona (a GMeet).</p>
+<p>3. Segon examen parcial de l&#39;assignatura.</p>
+<p>- Data: 26 de maig de 2020, 14:00-16:00 hores. Es manté la data del segon parcial tal com es va programar inicialment, però pot ser modificada si es realitza alguna modificació al calendari de la FIB.</p>
+<p>- Consistirà en: (a) activitats lliurables al Racó, i (b) prova realitzada de manera síncrona (a GMeet).</p>",
+          "titol": "Addenda a la guia docent de l'assignatura. Quadrimestre de primavera 2019-20",
+        },
+        Object {
+          "adjunts": Array [],
+          "codi_assig": "ROB",
+          "data_caducitat": "2020-07-17T00:00:00",
+          "data_insercio": "2020-04-11T00:00:00",
+          "data_modificacio": "2020-04-11T18:20:04",
+          "id": 106950,
+          "text": "<p>Aquest annex a la guia docent de l&#39;assignatura és vigent durant el període d&#39;excepcionalitat declarat per &#34;Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19&#34;</p>
+<p> A)  Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en els continguts, activitats i metodologia docent.</p>
+<p> Activitats:</p>
+<p> a)    Projectes a desemvolupar durant les sessions de laboratory.</p>
+<ol><li> SPK: Projecte sobre braços Robot </li><li>SPMR: Projecte sobre Robot Mobiles SPMR (estará dividit, part Cinematica i Intelligencia Artificial)</li></ol>
+<p>b)    Taskes (Todos) que l&#39;alumne haura de fer.</p>
+<p>c)    Actitud de l&#39;alumne en front de la asignatura.</p>
+<p>Metodologia:</p>
+<p> La clases tant de Teoria com de Laboratory serán no presencials, pero sí assistides per el profesor utilitzant Videoconferencia. Els alumnes compartirán les seves pantalles de ordinador per que el profesor els pugi ajudar.  </p>
+<p>B) Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en el mètode d&#39;avaluació.</p>
+<p>NF&#61; 0.1 x Actitud &#43; 0.3 x Todos &#43; 0.3 x SPK &#43; 0.3 SPMR</p>
+<p>Antonio</p>
+<p></p>
+<p> </p>",
+          "titol": "&quot;Addenda a la guia docent de l'assignatura. Quadrimestre de primavera 2019-2020",
+        },
+        Object {
+          "adjunts": Array [
+            Object {
+              "data_modificacio": "2020-03-30T03:20:04",
+              "mida": 274888,
+              "nom": "Jacobians_FIB.mlx",
+              "tipus_mime": "text/plain",
+              "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/83608",
+            },
+            Object {
+              "data_modificacio": "2020-03-30T03:20:04",
+              "mida": 5699167,
+              "nom": "Jacobians_FIB.pdf",
+              "tipus_mime": "application/pdf",
+              "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/83609",
+            },
+          ],
+          "codi_assig": "ROB",
+          "data_caducitat": "2020-07-17T00:00:00",
+          "data_insercio": "2020-03-30T00:00:00",
+          "data_modificacio": "2020-03-30T10:20:04",
+          "id": 106342,
+          "text": "",
+          "titol": "Session_6T: Jacobians",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    onRefresh={[Function]}
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+  <ReactNativeModal
+    animationIn="slideInUp"
+    animationInTiming={300}
+    animationOut="slideOutDown"
+    animationOutTiming={300}
+    avoidKeyboard={false}
+    backdropColor="black"
+    backdropOpacity={0.7}
+    backdropTransitionInTiming={300}
+    backdropTransitionOutTiming={300}
+    coverScreen={true}
+    customBackdrop={null}
+    deviceHeight={1334}
+    deviceWidth={750}
+    hasBackdrop={true}
+    hideModalContentWhileAnimating={true}
+    isVisible={false}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalShow={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "borderRadius": 15,
+        "margin": 25,
+        "marginBottom": 140,
+        "marginTop": 90,
+        "overflow": "hidden",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    useNativeDriver={true}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fdfdfd",
+          "flex": 1,
+          "padding": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#505050",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          }
+        }
+      />
+      <ScrollViewMock
+        style={
+          Object {
+            "borderTopWidth": 1,
+            "flex": 1,
+            "marginTop": 8,
+            "paddingTop": 12,
+          }
+        }
+      >
+        <Text
+          selectable={true}
+          style={
+            Object {
+              "color": "#454545",
+              "fontSize": 14,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          undefined
+        </Text>
+        <View
+          style={
+            Object {
+              "margin": 5,
+            }
+          }
+        />
+      </ScrollViewMock>
+      <Text
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "fontSize": 14,
+            "fontStyle": "italic",
+            "paddingRight": 8,
+            "paddingTop": 3,
+          }
+        }
+      />
+    </View>
+  </ReactNativeModal>
+</View>
+`;
+
+exports[`Testing Avisos component renders correctly with many 'avisos' and 5 'assignatures' and an 'avis' selected [tab_selected=Tots] 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#064283",
+        "elevation": 5,
+        "height": 55,
+      }
+    }
+  >
+    <GridNB>
+      <ColumnNB
+        key="Tots"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#1672a3",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 Tots 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="AS"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 AS 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ASDP"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ASDP 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ASW"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ASW 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ER"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ER 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+      <ColumnNB
+        key="ROB"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#064283",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "width": 125,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "900",
+                  }
+                }
+              >
+                 ROB 
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </ColumnNB>
+    </GridNB>
+  </View>
+  <FlatList
+    ListEmptyComponent={
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "paddingTop": 20,
+          }
+        }
+      >
+        <Text>
+             No tens avisos.   
+        </Text>
+      </View>
+    }
+    data={
+      Array [
+        Object {
+          "adjunts": Array [],
+          "codi_assig": "ASDP",
+          "data_caducitat": "2020-08-28T11:48:50",
+          "data_insercio": "2020-06-29T11:48:50",
+          "data_modificacio": "2020-06-29T11:48:50",
+          "id": 109925,
+          "text": "Text de l'avís",
+          "titol": "Notes finals definitives",
+        },
+        Object {
+          "adjunts": Array [
+            Object {
+              "data_modificacio": "2020-06-10T09:35:02",
+              "mida": 72873,
+              "nom": "Notas_Robotica_Final_no_revisadas.pdf",
+              "tipus_mime": "application/pdf",
+              "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/85849",
+            },
+          ],
+          "codi_assig": "ROB",
+          "data_caducitat": "2020-07-17T00:00:00",
+          "data_insercio": "2020-06-10T00:00:00",
+          "data_modificacio": "2020-06-10T16:35:02",
+          "id": 109554,
+          "text": "<p>Si teniu qualsevol aclariment contacteu amb els professors responsables del tema.</p>
+<p></p>
+<p>Antonio</p>",
+          "titol": "Notas Robotica: Finales ",
+        },
+        Object {
+          "adjunts": Array [],
+          "codi_assig": "ASDP",
+          "data_caducitat": "2020-07-31T00:00:00",
+          "data_insercio": "2020-04-14T00:00:00",
+          "data_modificacio": "2020-04-14T18:03:06",
+          "id": 107124,
+          "text": "<p>Aquest annex a la guia docent de l&#39;assignatura és vigent durant el període d&#39;excepcionalitat declarat per &#34;Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19&#34;</p>
+<p>A) Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en els continguts, activitats i metodologia docent.</p>
+<p>No s&#39;han introduït canvis significatius als continguts, a les activitats ni a la metodologia docent més enllà de l&#39;adaptació al mode no presencial.</p>
+<p>B) Canvis, respecte a la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en el mètode d&#39;avaluació.</p>
+<p>No hi ha canvis significatius en el mètode d&#39;avaluació, més enllà de l&#39;adaptació al mode no presencial. Per tant, es mantenen els actes d&#39;avaluació amb els percentatges tal com apareixen a la guia docent. Cal tenir en compte el següent:</p>
+<p>1. La participació a classe (i control del treball personal) es cobrirà amb:</p>
+<p>- una nota del període presencial</p>
+<p>- una nota de les entregues que s&#39;estan fent al Racó</p>
+<p>- una nota d&#39;un breu informe de l&#39;estudiant sobre el treball personal i els continguts de l&#39;assignatura cap al final del quadrimestre.</p>
+<p>2. Primer examen parcial de l&#39;assignatura.</p>
+<p>- Data: 28 d&#39;abril de 2020, 14:00-16:00 hores.</p>
+<p>- Consistirà en: (a) activitats lliurables al Racó, i (b) prova realitzada de manera síncrona (a GMeet).</p>
+<p>3. Segon examen parcial de l&#39;assignatura.</p>
+<p>- Data: 26 de maig de 2020, 14:00-16:00 hores. Es manté la data del segon parcial tal com es va programar inicialment, però pot ser modificada si es realitza alguna modificació al calendari de la FIB.</p>
+<p>- Consistirà en: (a) activitats lliurables al Racó, i (b) prova realitzada de manera síncrona (a GMeet).</p>",
+          "titol": "Addenda a la guia docent de l'assignatura. Quadrimestre de primavera 2019-20",
+        },
+        Object {
+          "adjunts": Array [],
+          "codi_assig": "ROB",
+          "data_caducitat": "2020-07-17T00:00:00",
+          "data_insercio": "2020-04-11T00:00:00",
+          "data_modificacio": "2020-04-11T18:20:04",
+          "id": 106950,
+          "text": "<p>Aquest annex a la guia docent de l&#39;assignatura és vigent durant el període d&#39;excepcionalitat declarat per &#34;Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19&#34;</p>
+<p> A)  Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en els continguts, activitats i metodologia docent.</p>
+<p> Activitats:</p>
+<p> a)    Projectes a desemvolupar durant les sessions de laboratory.</p>
+<ol><li> SPK: Projecte sobre braços Robot </li><li>SPMR: Projecte sobre Robot Mobiles SPMR (estará dividit, part Cinematica i Intelligencia Artificial)</li></ol>
+<p>b)    Taskes (Todos) que l&#39;alumne haura de fer.</p>
+<p>c)    Actitud de l&#39;alumne en front de la asignatura.</p>
+<p>Metodologia:</p>
+<p> La clases tant de Teoria com de Laboratory serán no presencials, pero sí assistides per el profesor utilitzant Videoconferencia. Els alumnes compartirán les seves pantalles de ordinador per que el profesor els pugi ajudar.  </p>
+<p>B) Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en el mètode d&#39;avaluació.</p>
+<p>NF&#61; 0.1 x Actitud &#43; 0.3 x Todos &#43; 0.3 x SPK &#43; 0.3 SPMR</p>
+<p>Antonio</p>
+<p></p>
+<p> </p>",
+          "titol": "&quot;Addenda a la guia docent de l'assignatura. Quadrimestre de primavera 2019-2020",
+        },
+        Object {
+          "adjunts": Array [
+            Object {
+              "data_modificacio": "2020-03-30T03:20:04",
+              "mida": 274888,
+              "nom": "Jacobians_FIB.mlx",
+              "tipus_mime": "text/plain",
+              "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/83608",
+            },
+            Object {
+              "data_modificacio": "2020-03-30T03:20:04",
+              "mida": 5699167,
+              "nom": "Jacobians_FIB.pdf",
+              "tipus_mime": "application/pdf",
+              "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/83609",
+            },
+          ],
+          "codi_assig": "ROB",
+          "data_caducitat": "2020-07-17T00:00:00",
+          "data_insercio": "2020-03-30T00:00:00",
+          "data_modificacio": "2020-03-30T10:20:04",
+          "id": 106342,
+          "text": "",
+          "titol": "Session_6T: Jacobians",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    onRefresh={[Function]}
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+  <ReactNativeModal
+    animationIn="slideInUp"
+    animationInTiming={300}
+    animationOut="slideOutDown"
+    animationOutTiming={300}
+    avoidKeyboard={false}
+    backdropColor="black"
+    backdropOpacity={0.7}
+    backdropTransitionInTiming={300}
+    backdropTransitionOutTiming={300}
+    coverScreen={true}
+    customBackdrop={null}
+    deviceHeight={1334}
+    deviceWidth={750}
+    hasBackdrop={true}
+    hideModalContentWhileAnimating={true}
+    isVisible={true}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalShow={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "borderRadius": 15,
+        "margin": 25,
+        "marginBottom": 140,
+        "marginTop": 90,
+        "overflow": "hidden",
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    useNativeDriver={true}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fdfdfd",
+          "flex": 1,
+          "padding": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#505050",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Notes finals definitives
+      </Text>
+      <ScrollViewMock
+        style={
+          Object {
+            "borderTopWidth": 1,
+            "flex": 1,
+            "marginTop": 8,
+            "paddingTop": 12,
+          }
+        }
+      >
+        <Text
+          selectable={true}
+          style={
+            Object {
+              "color": "#454545",
+              "fontSize": 14,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          Text de l'avís
+        </Text>
+        <View
+          style={
+            Object {
+              "margin": 5,
+            }
+          }
+        />
+      </ScrollViewMock>
+      <Text
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "fontSize": 14,
+            "fontStyle": "italic",
+            "paddingRight": 8,
+            "paddingTop": 3,
+          }
+        }
+      >
+        29/06/2020 11:48
+      </Text>
+    </View>
+  </ReactNativeModal>
+</View>
+`;
+
+exports[`Testing adjuntos method from Avisos component renders correctly the attachment section when there is more than one attachment 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#e8e8e8",
+      "borderRadius": 5,
+      "margin": 15,
+      "marginBottom": 25,
+      "marginRight": 20,
+      "padding": 8,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#333",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "paddingBottom": 5,
+      }
+    }
+  >
+    Adjunts:
+  </Text>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "marginBottom": 3,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#222",
+            "fontSize": 14,
+          }
+        }
+      >
+        Jacobians_FIB.mlx
+      </Text>
+    </View>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "marginBottom": 3,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#222",
+            "fontSize": 14,
+          }
+        }
+      >
+        Jacobians_FIB.pdf
+      </Text>
+    </View>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`Testing adjuntos method from Avisos component renders correctly the attachment section when there is no attachments 1`] = `
+<View
+  style={
+    Object {
+      "margin": 5,
+    }
+  }
+/>
+`;
+
+exports[`Testing adjuntos method from Avisos component renders correctly the attachment section when there is one attachment 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#e8e8e8",
+      "borderRadius": 5,
+      "margin": 15,
+      "marginBottom": 25,
+      "marginRight": 20,
+      "padding": 8,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#333",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "paddingBottom": 5,
+      }
+    }
+  >
+    Adjunts:
+  </Text>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "marginBottom": 3,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#222",
+            "fontSize": 14,
+          }
+        }
+      >
+        Notas_Robotica_Final_no_revisadas.pdf
+      </Text>
+    </View>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`Testing getAvisos method from Avisos component filters and orders avisos from an empty list of avisos 1`] = `Array []`;
+
+exports[`Testing getAvisos method from Avisos component filters avisos from a list of 1 avis of subject 'ASDP' when 'ASDP' tab is selected 1`] = `
+Array [
+  Object {
+    "adjunts": Array [],
+    "codi_assig": "ASDP",
+    "data_caducitat": "2020-08-28T11:48:50",
+    "data_insercio": "2020-06-29T11:48:50",
+    "data_modificacio": "2020-06-29T11:48:50",
+    "id": 109925,
+    "text": "Text de l'avís",
+    "titol": "Notes finals definitives",
+  },
+]
+`;
+
+exports[`Testing getAvisos method from Avisos component filters avisos from a list of 1 avis of subject 'ASDP' when 'ROB' tab is selected 1`] = `Array []`;
+
+exports[`Testing getAvisos method from Avisos component filters avisos from a list of 1 avis of subject 'ASDP' when 'Tots' tab is selected 1`] = `
+Array [
+  Object {
+    "adjunts": Array [],
+    "codi_assig": "ASDP",
+    "data_caducitat": "2020-08-28T11:48:50",
+    "data_insercio": "2020-06-29T11:48:50",
+    "data_modificacio": "2020-06-29T11:48:50",
+    "id": 109925,
+    "text": "Text de l'avís",
+    "titol": "Notes finals definitives",
+  },
+]
+`;
+
+exports[`Testing loadingComp method from Avisos component renders loading component correcly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#064283",
+        "height": 55,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#2020ff"
+      hidesWhenStopped={true}
+      size="large"
+    />
+  </View>
+</View>
+`;
+
+exports[`Testing modal method from Avisos component renders correctly the extended view (modal) of an 'avis' with more than one attachment 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.7}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  coverScreen={true}
+  customBackdrop={null}
+  deviceHeight={1334}
+  deviceWidth={750}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={true}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  style={
+    Object {
+      "borderRadius": 15,
+      "margin": 25,
+      "marginBottom": 140,
+      "marginTop": 90,
+      "overflow": "hidden",
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fdfdfd",
+        "flex": 1,
+        "padding": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#505050",
+          "fontSize": 14,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Session_6T: Jacobians
+    </Text>
+    <ScrollViewMock
+      style={
+        Object {
+          "borderTopWidth": 1,
+          "flex": 1,
+          "marginTop": 8,
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        selectable={true}
+        style={
+          Object {
+            "color": "#454545",
+            "fontSize": 14,
+            "paddingBottom": 10,
+          }
+        }
+      >
+        
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#e8e8e8",
+            "borderRadius": 5,
+            "margin": 15,
+            "marginBottom": 25,
+            "marginRight": 20,
+            "padding": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#333",
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+            }
+          }
+        >
+          Adjunts:
+        </Text>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "marginBottom": 3,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#222",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Jacobians_FIB.mlx
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "marginBottom": 3,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#222",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Jacobians_FIB.pdf
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ScrollViewMock>
+    <Text
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "fontSize": 14,
+          "fontStyle": "italic",
+          "paddingRight": 8,
+          "paddingTop": 3,
+        }
+      }
+    >
+      30/03/2020 10:20
+    </Text>
+  </View>
+</ReactNativeModal>
+`;
+
+exports[`Testing modal method from Avisos component renders correctly the extended view (modal) of an 'avis' with one attachment 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.7}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  coverScreen={true}
+  customBackdrop={null}
+  deviceHeight={1334}
+  deviceWidth={750}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={true}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  style={
+    Object {
+      "borderRadius": 15,
+      "margin": 25,
+      "marginBottom": 140,
+      "marginTop": 90,
+      "overflow": "hidden",
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fdfdfd",
+        "flex": 1,
+        "padding": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#505050",
+          "fontSize": 14,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Notas Robotica: Finales 
+    </Text>
+    <ScrollViewMock
+      style={
+        Object {
+          "borderTopWidth": 1,
+          "flex": 1,
+          "marginTop": 8,
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        selectable={true}
+        style={
+          Object {
+            "color": "#454545",
+            "fontSize": 14,
+            "paddingBottom": 10,
+          }
+        }
+      >
+        Si teniu qualsevol aclariment contacteu amb els professors responsables del tema.
+
+
+
+Antonio
+
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#e8e8e8",
+            "borderRadius": 5,
+            "margin": 15,
+            "marginBottom": 25,
+            "marginRight": 20,
+            "padding": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#333",
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+            }
+          }
+        >
+          Adjunts:
+        </Text>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "marginBottom": 3,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#222",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Notas_Robotica_Final_no_revisadas.pdf
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ScrollViewMock>
+    <Text
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "fontSize": 14,
+          "fontStyle": "italic",
+          "paddingRight": 8,
+          "paddingTop": 3,
+        }
+      }
+    >
+      10/06/2020 16:35
+    </Text>
+  </View>
+</ReactNativeModal>
+`;
+
+exports[`Testing modal method from Avisos component renders correctly the extended view (modal) of an 'avis' without attachments 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.7}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  coverScreen={true}
+  customBackdrop={null}
+  deviceHeight={1334}
+  deviceWidth={750}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={true}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  style={
+    Object {
+      "borderRadius": 15,
+      "margin": 25,
+      "marginBottom": 140,
+      "marginTop": 90,
+      "overflow": "hidden",
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fdfdfd",
+        "flex": 1,
+        "padding": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#505050",
+          "fontSize": 14,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Notes finals definitives
+    </Text>
+    <ScrollViewMock
+      style={
+        Object {
+          "borderTopWidth": 1,
+          "flex": 1,
+          "marginTop": 8,
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        selectable={true}
+        style={
+          Object {
+            "color": "#454545",
+            "fontSize": 14,
+            "paddingBottom": 10,
+          }
+        }
+      >
+        Text de l'avís
+      </Text>
+      <View
+        style={
+          Object {
+            "margin": 5,
+          }
+        }
+      />
+    </ScrollViewMock>
+    <Text
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "fontSize": 14,
+          "fontStyle": "italic",
+          "paddingRight": 8,
+          "paddingTop": 3,
+        }
+      }
+    >
+      29/06/2020 11:48
+    </Text>
+  </View>
+</ReactNativeModal>
+`;
+
+exports[`Testing renderAvis method from Avisos component renders correctly an 'avis' with attachments 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": 5,
+        "elevation": 1,
+        "margin": 5,
+        "marginLeft": 15,
+        "marginRight": 15,
+        "padding": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#606060",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Notas Robotica: Finales 
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 15,
+          }
+        }
+      >
+        ROB
+         - 
+        10/06/2020 16:35
+          
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          color="#808080"
+          name="paperclip"
+          size={14}
+        />
+        <Text
+          style={
+            Object {
+              "fontSize": 15,
+            }
+          }
+        >
+           
+          1
+        </Text>
+      </View>
+    </View>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`Testing renderAvis method from Avisos component renders correctly an 'avis' without attachments 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": 5,
+        "elevation": 1,
+        "margin": 5,
+        "marginLeft": 15,
+        "marginRight": 15,
+        "padding": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#606060",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Notes finals definitives
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 15,
+          }
+        }
+      >
+        ASDP
+         - 
+        29/06/2020 11:48
+          
+      </Text>
+      <View />
+    </View>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`Testing renderTabs method from Avisos component renders tabs with five subjects 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#064283",
+      "elevation": 5,
+      "height": 55,
+    }
+  }
+>
+  <GridNB>
+    <ColumnNB>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#1672a3",
+            "flex": 1,
+            "justifyContent": "center",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "width": 125,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "fontWeight": "900",
+                }
+              }
+            >
+               Tots 
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ColumnNB>
+    <ColumnNB>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#064283",
+            "flex": 1,
+            "justifyContent": "center",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "width": 125,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "fontWeight": "900",
+                }
+              }
+            >
+               AS 
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ColumnNB>
+    <ColumnNB>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#064283",
+            "flex": 1,
+            "justifyContent": "center",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "width": 125,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "fontWeight": "900",
+                }
+              }
+            >
+               ASDP 
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ColumnNB>
+    <ColumnNB>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#064283",
+            "flex": 1,
+            "justifyContent": "center",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "width": 125,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "fontWeight": "900",
+                }
+              }
+            >
+               ASW 
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ColumnNB>
+    <ColumnNB>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#064283",
+            "flex": 1,
+            "justifyContent": "center",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "width": 125,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "fontWeight": "900",
+                }
+              }
+            >
+               ER 
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ColumnNB>
+    <ColumnNB>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#064283",
+            "flex": 1,
+            "justifyContent": "center",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "width": 125,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "fontWeight": "900",
+                }
+              }
+            >
+               ROB 
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ColumnNB>
+  </GridNB>
+</View>
+`;
+
+exports[`Testing renderTabs method from Avisos component renders tabs with no subjects 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#064283",
+      "elevation": 5,
+      "height": 55,
+    }
+  }
+>
+  <GridNB>
+    <ColumnNB>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#1672a3",
+            "flex": 1,
+            "justifyContent": "center",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "width": 750,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "fontWeight": "900",
+                }
+              }
+            >
+               Tots 
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ColumnNB>
+  </GridNB>
+</View>
+`;
+
+exports[`Testing renderTabs method from Avisos component renders tabs with one subject 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#064283",
+      "elevation": 5,
+      "height": 55,
+    }
+  }
+>
+  <GridNB>
+    <ColumnNB>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#1672a3",
+            "flex": 1,
+            "justifyContent": "center",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "width": 375,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "fontWeight": "900",
+                }
+              }
+            >
+               Tots 
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ColumnNB>
+    <ColumnNB>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#064283",
+            "flex": 1,
+            "justifyContent": "center",
+            "overflow": "hidden",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "width": 375,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "fontWeight": "900",
+                }
+              }
+            >
+               ROB 
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </ColumnNB>
+  </GridNB>
+</View>
+`;
+
+exports[`Testing updateAvisos method from Avisos component fetches new avisos and updates the state of redux store 1`] = `
+Array [
+  Object {
+    "count": 4,
+    "results": Array [
+      Object {
+        "adjunts": Array [],
+        "codi_assig": "ASDP",
+        "data_caducitat": "2020-08-28T11:48:50",
+        "data_insercio": "2020-06-29T11:48:50",
+        "data_modificacio": "2020-06-29T11:48:50",
+        "id": 109925,
+        "text": "Text de l'avís",
+        "titol": "Notes finals definitives",
+      },
+      Object {
+        "adjunts": Array [],
+        "codi_assig": "ROB",
+        "data_caducitat": "2020-07-17T00:00:00",
+        "data_insercio": "2020-04-11T00:00:00",
+        "data_modificacio": "2020-04-11T18:20:04",
+        "id": 106950,
+        "text": "<p>Aquest annex a la guia docent de l&#39;assignatura és vigent durant el període d&#39;excepcionalitat declarat per &#34;Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19&#34;</p>
+<p> A)  Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en els continguts, activitats i metodologia docent.</p>
+<p> Activitats:</p>
+<p> a)    Projectes a desemvolupar durant les sessions de laboratory.</p>
+<ol><li> SPK: Projecte sobre braços Robot </li><li>SPMR: Projecte sobre Robot Mobiles SPMR (estará dividit, part Cinematica i Intelligencia Artificial)</li></ol>
+<p>b)    Taskes (Todos) que l&#39;alumne haura de fer.</p>
+<p>c)    Actitud de l&#39;alumne en front de la asignatura.</p>
+<p>Metodologia:</p>
+<p> La clases tant de Teoria com de Laboratory serán no presencials, pero sí assistides per el profesor utilitzant Videoconferencia. Els alumnes compartirán les seves pantalles de ordinador per que el profesor els pugi ajudar.  </p>
+<p>B) Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en el mètode d&#39;avaluació.</p>
+<p>NF&#61; 0.1 x Actitud &#43; 0.3 x Todos &#43; 0.3 x SPK &#43; 0.3 SPMR</p>
+<p>Antonio</p>
+<p></p>
+<p> </p>",
+        "titol": "&quot;Addenda a la guia docent de l'assignatura. Quadrimestre de primavera 2019-2020",
+      },
+      Object {
+        "adjunts": Array [
+          Object {
+            "data_modificacio": "2020-06-10T09:35:02",
+            "mida": 72873,
+            "nom": "Notas_Robotica_Final_no_revisadas.pdf",
+            "tipus_mime": "application/pdf",
+            "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/85849",
+          },
+        ],
+        "codi_assig": "ROB",
+        "data_caducitat": "2020-07-17T00:00:00",
+        "data_insercio": "2020-06-10T00:00:00",
+        "data_modificacio": "2020-06-10T16:35:02",
+        "id": 109554,
+        "text": "<p>Si teniu qualsevol aclariment contacteu amb els professors responsables del tema.</p>
+<p></p>
+<p>Antonio</p>",
+        "titol": "Notas Robotica: Finales ",
+      },
+      Object {
+        "adjunts": Array [],
+        "codi_assig": "ASDP",
+        "data_caducitat": "2020-07-31T00:00:00",
+        "data_insercio": "2020-04-14T00:00:00",
+        "data_modificacio": "2020-04-14T18:03:06",
+        "id": 107124,
+        "text": "<p>Aquest annex a la guia docent de l&#39;assignatura és vigent durant el període d&#39;excepcionalitat declarat per &#34;Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19&#34;</p>
+<p>A) Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en els continguts, activitats i metodologia docent.</p>
+<p>No s&#39;han introduït canvis significatius als continguts, a les activitats ni a la metodologia docent més enllà de l&#39;adaptació al mode no presencial.</p>
+<p>B) Canvis, respecte a la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en el mètode d&#39;avaluació.</p>
+<p>No hi ha canvis significatius en el mètode d&#39;avaluació, més enllà de l&#39;adaptació al mode no presencial. Per tant, es mantenen els actes d&#39;avaluació amb els percentatges tal com apareixen a la guia docent. Cal tenir en compte el següent:</p>
+<p>1. La participació a classe (i control del treball personal) es cobrirà amb:</p>
+<p>- una nota del període presencial</p>
+<p>- una nota de les entregues que s&#39;estan fent al Racó</p>
+<p>- una nota d&#39;un breu informe de l&#39;estudiant sobre el treball personal i els continguts de l&#39;assignatura cap al final del quadrimestre.</p>
+<p>2. Primer examen parcial de l&#39;assignatura.</p>
+<p>- Data: 28 d&#39;abril de 2020, 14:00-16:00 hores.</p>
+<p>- Consistirà en: (a) activitats lliurables al Racó, i (b) prova realitzada de manera síncrona (a GMeet).</p>
+<p>3. Segon examen parcial de l&#39;assignatura.</p>
+<p>- Data: 26 de maig de 2020, 14:00-16:00 hores. Es manté la data del segon parcial tal com es va programar inicialment, però pot ser modificada si es realitza alguna modificació al calendari de la FIB.</p>
+<p>- Consistirà en: (a) activitats lliurables al Racó, i (b) prova realitzada de manera síncrona (a GMeet).</p>",
+        "titol": "Addenda a la guia docent de l'assignatura. Quadrimestre de primavera 2019-20",
+      },
+      Object {
+        "adjunts": Array [
+          Object {
+            "data_modificacio": "2020-03-30T03:20:04",
+            "mida": 274888,
+            "nom": "Jacobians_FIB.mlx",
+            "tipus_mime": "text/plain",
+            "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/83608",
+          },
+          Object {
+            "data_modificacio": "2020-03-30T03:20:04",
+            "mida": 5699167,
+            "nom": "Jacobians_FIB.pdf",
+            "tipus_mime": "application/pdf",
+            "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/83609",
+          },
+        ],
+        "codi_assig": "ROB",
+        "data_caducitat": "2020-07-17T00:00:00",
+        "data_insercio": "2020-03-30T00:00:00",
+        "data_modificacio": "2020-03-30T10:20:04",
+        "id": 106342,
+        "text": "",
+        "titol": "Session_6T: Jacobians",
+      },
+    ],
+  },
+]
+`;

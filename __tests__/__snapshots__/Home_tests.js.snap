@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing getData method from Noticies component Prefetches the data from FIB's API for the app components feeding them to the redux store 1`] = `
+Object {
+  "config": Object {
+    "data": undefined,
+    "headers": Object {
+      "Accept": "application/json, text/plain, */*",
+      "Accept-Language": undefined,
+      "Authorization": "Bearer token_mock",
+    },
+    "maxContentLength": -1,
+    "method": "get",
+    "timeout": 0,
+    "transformRequest": Array [
+      [Function],
+    ],
+    "transformResponse": Array [
+      [Function],
+    ],
+    "url": "https://api.fib.upc.edu/v2/jo/avisos/",
+    "validateStatus": [Function],
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+  },
+  "data": Object {
+    "count": 4,
+    "results": Array [
+      Object {
+        "adjunts": Array [],
+        "codi_assig": "ASDP",
+        "data_caducitat": "2020-08-28T11:48:50",
+        "data_insercio": "2020-06-29T11:48:50",
+        "data_modificacio": "2020-06-29T11:48:50",
+        "id": 109925,
+        "text": "Text de l'avís",
+        "titol": "Notes finals definitives",
+      },
+      Object {
+        "adjunts": Array [],
+        "codi_assig": "ROB",
+        "data_caducitat": "2020-07-17T00:00:00",
+        "data_insercio": "2020-04-11T00:00:00",
+        "data_modificacio": "2020-04-11T18:20:04",
+        "id": 106950,
+        "text": "<p>Aquest annex a la guia docent de l&#39;assignatura és vigent durant el període d&#39;excepcionalitat declarat per &#34;Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19&#34;</p>
+<p> A)  Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en els continguts, activitats i metodologia docent.</p>
+<p> Activitats:</p>
+<p> a)    Projectes a desemvolupar durant les sessions de laboratory.</p>
+<ol><li> SPK: Projecte sobre braços Robot </li><li>SPMR: Projecte sobre Robot Mobiles SPMR (estará dividit, part Cinematica i Intelligencia Artificial)</li></ol>
+<p>b)    Taskes (Todos) que l&#39;alumne haura de fer.</p>
+<p>c)    Actitud de l&#39;alumne en front de la asignatura.</p>
+<p>Metodologia:</p>
+<p> La clases tant de Teoria com de Laboratory serán no presencials, pero sí assistides per el profesor utilitzant Videoconferencia. Els alumnes compartirán les seves pantalles de ordinador per que el profesor els pugi ajudar.  </p>
+<p>B) Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en el mètode d&#39;avaluació.</p>
+<p>NF&#61; 0.1 x Actitud &#43; 0.3 x Todos &#43; 0.3 x SPK &#43; 0.3 SPMR</p>
+<p>Antonio</p>
+<p></p>
+<p> </p>",
+        "titol": "&quot;Addenda a la guia docent de l'assignatura. Quadrimestre de primavera 2019-2020",
+      },
+      Object {
+        "adjunts": Array [
+          Object {
+            "data_modificacio": "2020-06-10T09:35:02",
+            "mida": 72873,
+            "nom": "Notas_Robotica_Final_no_revisadas.pdf",
+            "tipus_mime": "application/pdf",
+            "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/85849",
+          },
+        ],
+        "codi_assig": "ROB",
+        "data_caducitat": "2020-07-17T00:00:00",
+        "data_insercio": "2020-06-10T00:00:00",
+        "data_modificacio": "2020-06-10T16:35:02",
+        "id": 109554,
+        "text": "<p>Si teniu qualsevol aclariment contacteu amb els professors responsables del tema.</p>
+<p></p>
+<p>Antonio</p>",
+        "titol": "Notas Robotica: Finales ",
+      },
+      Object {
+        "adjunts": Array [],
+        "codi_assig": "ASDP",
+        "data_caducitat": "2020-07-31T00:00:00",
+        "data_insercio": "2020-04-14T00:00:00",
+        "data_modificacio": "2020-04-14T18:03:06",
+        "id": 107124,
+        "text": "<p>Aquest annex a la guia docent de l&#39;assignatura és vigent durant el període d&#39;excepcionalitat declarat per &#34;Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19&#34;</p>
+<p>A) Canvis, respecte la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en els continguts, activitats i metodologia docent.</p>
+<p>No s&#39;han introduït canvis significatius als continguts, a les activitats ni a la metodologia docent més enllà de l&#39;adaptació al mode no presencial.</p>
+<p>B) Canvis, respecte a la versió de la Guia Docent de l&#39;Assignatura a l&#39;inici del quadrimestre, en el mètode d&#39;avaluació.</p>
+<p>No hi ha canvis significatius en el mètode d&#39;avaluació, més enllà de l&#39;adaptació al mode no presencial. Per tant, es mantenen els actes d&#39;avaluació amb els percentatges tal com apareixen a la guia docent. Cal tenir en compte el següent:</p>
+<p>1. La participació a classe (i control del treball personal) es cobrirà amb:</p>
+<p>- una nota del període presencial</p>
+<p>- una nota de les entregues que s&#39;estan fent al Racó</p>
+<p>- una nota d&#39;un breu informe de l&#39;estudiant sobre el treball personal i els continguts de l&#39;assignatura cap al final del quadrimestre.</p>
+<p>2. Primer examen parcial de l&#39;assignatura.</p>
+<p>- Data: 28 d&#39;abril de 2020, 14:00-16:00 hores.</p>
+<p>- Consistirà en: (a) activitats lliurables al Racó, i (b) prova realitzada de manera síncrona (a GMeet).</p>
+<p>3. Segon examen parcial de l&#39;assignatura.</p>
+<p>- Data: 26 de maig de 2020, 14:00-16:00 hores. Es manté la data del segon parcial tal com es va programar inicialment, però pot ser modificada si es realitza alguna modificació al calendari de la FIB.</p>
+<p>- Consistirà en: (a) activitats lliurables al Racó, i (b) prova realitzada de manera síncrona (a GMeet).</p>",
+        "titol": "Addenda a la guia docent de l'assignatura. Quadrimestre de primavera 2019-20",
+      },
+      Object {
+        "adjunts": Array [
+          Object {
+            "data_modificacio": "2020-03-30T03:20:04",
+            "mida": 274888,
+            "nom": "Jacobians_FIB.mlx",
+            "tipus_mime": "text/plain",
+            "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/83608",
+          },
+          Object {
+            "data_modificacio": "2020-03-30T03:20:04",
+            "mida": 5699167,
+            "nom": "Jacobians_FIB.pdf",
+            "tipus_mime": "application/pdf",
+            "url": "https://api.fib.upc.edu/v2/jo/avisos/adjunt/83609",
+          },
+        ],
+        "codi_assig": "ROB",
+        "data_caducitat": "2020-07-17T00:00:00",
+        "data_insercio": "2020-03-30T00:00:00",
+        "data_modificacio": "2020-03-30T10:20:04",
+        "id": 106342,
+        "text": "",
+        "titol": "Session_6T: Jacobians",
+      },
+    ],
+  },
+  "headers": undefined,
+  "request": Object {
+    "responseUrl": "https://api.fib.upc.edu/v2/jo/avisos/",
+  },
+  "status": 200,
+}
+`;
+
+exports[`Testing getData method from Noticies component Prefetches the data from FIB's API for the app components feeding them to the redux store 2`] = `
+Object {
+  "config": Object {
+    "data": undefined,
+    "headers": Object {
+      "Accept": "application/json, text/plain, */*",
+      "Accept-Language": undefined,
+      "Authorization": "Bearer token_mock",
+    },
+    "maxContentLength": -1,
+    "method": "get",
+    "timeout": 0,
+    "transformRequest": Array [
+      [Function],
+    ],
+    "transformResponse": Array [
+      [Function],
+    ],
+    "url": "https://api.fib.upc.edu/v2/jo/assignatures/",
+    "validateStatus": [Function],
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+  },
+  "data": Object {
+    "count": 5,
+    "results": Array [
+      Object {
+        "codi_upc": 90000,
+        "credits": 6,
+        "grup": "10",
+        "guia": "https://api.fib.upc.edu/v2/assignatures/AS/guia/",
+        "id": "AS",
+        "nom": "Arquitectura de Software",
+        "semestre": "",
+        "sigles": "AS",
+        "url": "https://api.fib.upc.edu/v2/assignatures/AS/",
+      },
+      Object {
+        "codi_upc": 270130,
+        "credits": 6,
+        "grup": "11",
+        "guia": "https://api.fib.upc.edu/v2/assignatures/ROB/guia/",
+        "id": "ROB",
+        "nom": "Robótica",
+        "semestre": "",
+        "sigles": "ROB",
+        "url": "https://api.fib.upc.edu/v2/assignatures/ROB/",
+      },
+      Object {
+        "codi_upc": 270131,
+        "credits": 6,
+        "grup": "21",
+        "guia": "https://api.fib.upc.edu/v2/assignatures/ASW/guia/",
+        "id": "ASW",
+        "nom": "Aplicacions i Serveis Web",
+        "semestre": "",
+        "sigles": "ASW",
+        "url": "https://api.fib.upc.edu/v2/assignatures/ASW/",
+      },
+      Object {
+        "codi_upc": 270136,
+        "credits": 6,
+        "grup": "12",
+        "guia": "https://api.fib.upc.edu/v2/assignatures/ER/guia/",
+        "id": "ER",
+        "nom": "Enginyeria de Requisits",
+        "semestre": "",
+        "sigles": "ER",
+        "url": "https://api.fib.upc.edu/v2/assignatures/ER/",
+      },
+      Object {
+        "codi_upc": 270190,
+        "credits": 6,
+        "grup": "10",
+        "guia": "https://api.fib.upc.edu/v2/assignatures/ASDP/guia/",
+        "id": "ASDP",
+        "nom": "Habilidades Académicas para el Desarrollo de Proyectos en Inglés",
+        "semestre": "",
+        "sigles": "ASDP",
+        "url": "https://api.fib.upc.edu/v2/assignatures/ASDP/",
+      },
+    ],
+  },
+  "headers": undefined,
+  "request": Object {
+    "responseUrl": "https://api.fib.upc.edu/v2/jo/assignatures/",
+  },
+  "status": 200,
+}
+`;
+
+exports[`Testing getData method from Noticies component Prefetches the data from FIB's API for the app components feeding them to the redux store 3`] = `
+Object {
+  "config": Object {
+    "data": undefined,
+    "headers": Object {
+      "Accept": "application/json, text/plain, */*",
+      "Accept-Language": undefined,
+      "Authorization": "Bearer token_mock",
+    },
+    "maxContentLength": -1,
+    "method": "get",
+    "timeout": 0,
+    "transformRequest": Array [
+      [Function],
+    ],
+    "transformResponse": Array [
+      [Function],
+    ],
+    "url": "https://api.fib.upc.edu/v2/laboratoris/imatges/",
+    "validateStatus": [Function],
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+  },
+  "data": Object {
+    "imatges": Object {
+      "A5": "https://api.fib.upc.edu/v2/laboratoris/imatges/A5.png",
+      "B5": "https://api.fib.upc.edu/v2/laboratoris/imatges/B5.png",
+      "C6": "https://api.fib.upc.edu/v2/laboratoris/imatges/C6.png",
+    },
+  },
+  "headers": undefined,
+  "request": Object {
+    "responseUrl": "https://api.fib.upc.edu/v2/laboratoris/imatges/",
+  },
+  "status": 200,
+}
+`;
+
+exports[`Testing getData method from Noticies component Prefetches the data from FIB's API for the app components feeding them to the redux store 4`] = `
+Object {
+  "count": 37,
+  "results": Array [
+    Object {
+      "fi": "2020-01-25T00:00:00",
+      "inici": "2019-09-08T00:00:00",
+      "nom": "TFG-INSCRIPCIO-Q1",
+    },
+    Object {
+      "fi": "2020-01-25T00:00:00",
+      "inici": "2019-09-08T00:00:00",
+      "nom": "TFM-INSCRIPCIO-Q1",
+    },
+    Object {
+      "fi": "2019-09-11T00:00:00",
+      "inici": "2019-09-11T00:00:00",
+      "nom": "FESTIU",
+    },
+    Object {
+      "fi": "2019-09-24T00:00:00",
+      "inici": "2019-09-23T00:00:00",
+      "nom": "FESTIU",
+    },
+    Object {
+      "fi": "2019-09-27T00:00:00",
+      "inici": "2019-09-27T00:00:00",
+      "nom": "LIMIT-SEGUIMENT-TFG-OCTUBRE",
+    },
+    Object {
+      "fi": "2019-10-25T00:00:00",
+      "inici": "2019-10-21T00:00:00",
+      "nom": "TORN-LECTURA-TFG-OCTUBRE",
+    },
+    Object {
+      "fi": "2019-10-31T00:00:00",
+      "inici": "2019-10-31T00:00:00",
+      "nom": "CANVI DIA",
+    },
+    Object {
+      "fi": "2019-11-01T00:00:00",
+      "inici": "2019-11-01T00:00:00",
+      "nom": "FESTIU",
+    },
+    Object {
+      "fi": "2019-12-06T00:00:00",
+      "inici": "2019-12-06T00:00:00",
+      "nom": "FESTIU",
+    },
+    Object {
+      "fi": "2019-12-16T00:00:00",
+      "inici": "2019-12-16T00:00:00",
+      "nom": "LIMIT-SEGUIMENT-TFG-FEBRER",
+    },
+    Object {
+      "fi": "2020-01-06T00:00:00",
+      "inici": "2019-12-23T00:00:00",
+      "nom": "VACANCES",
+    },
+    Object {
+      "fi": "2019-12-31T00:00:00",
+      "inici": "2019-12-31T00:00:00",
+      "nom": "BDMA-FI-MEMORIA",
+    },
+    Object {
+      "fi": "2019-12-31T00:00:00",
+      "inici": "2019-12-31T00:00:00",
+      "nom": "BDMA-FI-PRE-ENTREGA",
+    },
+    Object {
+      "fi": "2020-01-29T00:00:00",
+      "inici": "2020-01-23T00:00:00",
+      "nom": "TORN-LECTURA-TFG-FEBRER",
+    },
+    Object {
+      "fi": "2020-05-29T00:00:00",
+      "inici": "2020-02-10T00:00:00",
+      "nom": "CURS",
+    },
+    Object {
+      "fi": "2020-07-13T23:59:59",
+      "inici": "2020-02-10T00:00:00",
+      "nom": "TFG-INSCRIPCIO-Q2",
+    },
+    Object {
+      "fi": "2020-07-13T23:59:59",
+      "inici": "2020-02-10T00:00:00",
+      "nom": "TFM-INSCRIPCIO-Q2",
+    },
+    Object {
+      "fi": "2020-03-30T00:00:00",
+      "inici": "2020-03-30T00:00:00",
+      "nom": "LIMIT-SEGUIMENT-TFG-ABRIL",
+    },
+    Object {
+      "fi": "2020-04-10T00:00:00",
+      "inici": "2020-04-06T00:00:00",
+      "nom": "FESTIU",
+    },
+    Object {
+      "fi": "2020-04-13T00:00:00",
+      "inici": "2020-04-13T00:00:00",
+      "nom": "FESTIU",
+    },
+    Object {
+      "fi": "2020-04-14T23:59:59",
+      "inici": "2020-04-14T23:59:59",
+      "nom": "TFM-MFPS-FI-LLIURAMENT-PARC",
+    },
+    Object {
+      "fi": "2020-04-30T00:00:00",
+      "inici": "2020-04-27T00:00:00",
+      "nom": "TORN-LECTURA-TFG-ABRIL",
+    },
+    Object {
+      "fi": "2020-05-01T00:00:00",
+      "inici": "2020-05-01T00:00:00",
+      "nom": "FESTIU",
+    },
+    Object {
+      "fi": "2020-06-01T00:00:00",
+      "inici": "2020-06-01T00:00:00",
+      "nom": "FESTIU",
+    },
+    Object {
+      "fi": "2020-06-02T00:00:00",
+      "inici": "2020-06-02T00:00:00",
+      "nom": "LIMIT-SEGUIMENT-TFG-JUNY",
+    },
+    Object {
+      "fi": "2020-06-08T23:59:59",
+      "inici": "2020-06-08T23:59:59",
+      "nom": "TFM-MFPS-FI-MEMORIA",
+    },
+    Object {
+      "fi": "2020-06-23T00:00:00",
+      "inici": "2020-06-23T00:00:00",
+      "nom": "FI-EXAMENS",
+    },
+    Object {
+      "fi": "2020-07-03T00:00:00",
+      "inici": "2020-06-29T00:00:00",
+      "nom": "TORN-LECTURA-TFG-JUNY",
+    },
+    Object {
+      "fi": "2020-07-14T23:59:00",
+      "inici": "2020-07-13T10:00:00",
+      "nom": "PREMATRICULA-FASE1",
+    },
+    Object {
+      "fi": "2020-07-16T14:00:00",
+      "inici": "2020-07-16T10:00:00",
+      "nom": "PREMATRICULA-FASE2",
+    },
+    Object {
+      "fi": "2020-07-17T00:00:00",
+      "inici": "2020-07-17T00:00:00",
+      "nom": "CURRICULARS",
+    },
+    Object {
+      "fi": "2020-09-02T23:59:00",
+      "inici": "2020-09-01T00:00:00",
+      "nom": "INSCRIPCIO-INSTANCIES-CANVI-GRUP",
+    },
+    Object {
+      "fi": "2020-09-02T23:59:00",
+      "inici": "2020-09-01T00:00:00",
+      "nom": "INSCRIPCIO-INSTANCIES-CANVI-MATRICULA",
+    },
+    Object {
+      "fi": "2020-09-08T00:00:00",
+      "inici": "2020-09-07T00:00:00",
+      "nom": "RESOLUCIO-INSTANCIES-CANVI-GRUP",
+    },
+    Object {
+      "fi": "2020-09-08T00:00:00",
+      "inici": "2020-09-07T00:00:00",
+      "nom": "RESOLUCIO-INSTANCIES-CANVI-MATRICULA",
+    },
+    Object {
+      "fi": "2020-09-28T00:00:00",
+      "inici": "2020-09-28T00:00:00",
+      "nom": "LIMIT-SEGUIMENT-TFG-OCTUBRE",
+    },
+    Object {
+      "fi": "2020-10-30T00:00:00",
+      "inici": "2020-10-26T00:00:00",
+      "nom": "TORN-LECTURA-TFG-OCTUBRE",
+    },
+  ],
+}
+`;
+
+exports[`Testing getData method from Noticies component Prefetches the data from FIB's API for the app components feeding them to the redux store 5`] = `Object {}`;

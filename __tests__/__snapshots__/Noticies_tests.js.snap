@@ -1,0 +1,903 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Noticies component renders a list with more than one notice 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <FlatList
+    ListEmptyComponent={
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 120,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <ActivityIndicator
+          animating={true}
+          color="#2020ff"
+          hidesWhenStopped={true}
+          size="large"
+        />
+      </View>
+    }
+    data={
+      Array [
+        Object {
+          "centre": "FIB",
+          "date": "2020-07-02 10:02",
+          "description": "Si, si , la FIB estrena rótulos, ahora ya sabrás donde está el B6! :)",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/edifici-b6-retolacio-2020-principal.jpg?itok=355blmIi",
+          "link": "https://www.fib.upc.edu/es/noticias/la-fib-estrena-rotulacion",
+          "title": "La FIB estrena rotulación",
+        },
+        Object {
+          "centre": "FIB",
+          "date": "2020-07-02 09:34",
+          "description": "El equipo ganador está formado por seis estudiantes de la FIB y ha conseguido el premio por haber sido el más votado durante el concurso.",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/not-only-flops-icc-team_1.jpg?itok=HiDDJ4Nw",
+          "link": "https://www.fib.upc.edu/es/la-fib/la-facultad/premios-y-reconocimientos/notonlyflops-gana-el-premio-fan-favorite-en-la-isc-2020-student-cluster-competition",
+          "title": "NotOnlyFlops gana el premio Fan Favorite en la ISC 2020 Student Cluster Competition",
+        },
+        Object {
+          "centre": "FIB",
+          "date": "2020-06-30 19:47",
+          "description": "Durante el mes de julio se activará el servicio de correo electrónico de GSuite a las cuentas <a id='ZepGNoFiu' rel='nofollow'></a><script>var ZepGNoFiu = 'studia##pc.edu#ntat.u#nom.co#gnom@e';
+var ZepGNoFiu = ZepGNoFiu.split('#');
+document.getElementById('ZepGNoFiu').innerHTML = ZepGNoFiu[4]+ZepGNoFiu[5]+ZepGNoFiu[0]+ZepGNoFiu[3]+ZepGNoFiu[2]+ZepGNoFiu[1];
+document.getElementById('ZepGNoFiu').href = 'mailto:'+ZepGNoFiu[4]+ZepGNoFiu[5]+ZepGNoFiu[0]+ZepGNoFiu[3]+ZepGNoFiu[2]+ZepGNoFiu[1];
+</script>
+ 
+    .",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/mailbox.jpg?itok=kGfT37MD",
+          "link": "https://www.fib.upc.edu/es/noticias/activacion-del-correo-de-estudiantes-en-google-suite",
+          "title": "Activación del correo de estudiantes en Google Suite",
+        },
+        Object {
+          "centre": "FIB",
+          "date": "2020-06-30 10:32",
+          "description": "<span>A partir del 6 de julio se hará un mantenimiento a los servicios de aula virtual y virtech.</span>",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/mant_red.png?itok=mBQGJnQx",
+          "link": "https://www.fib.upc.edu/es/noticias/mantenimiento-de-sistemas-docentes-virtuales-julio-2020",
+          "title": "Mantenimiento de sistemas docentes virtuales, julio 2020",
+        },
+        Object {
+          "centre": "FIB",
+          "date": "2020-06-30 10:20",
+          "description": "Estudiantes de la FIB y el&nbsp;ETSETB&nbsp;junto con algunos profesores de la FIB han participado al proyecto Origen.",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/ccd-projecte-origen.jpg?itok=IGtQEmKi",
+          "link": "https://www.fib.upc.edu/es/noticias/ccd-proyecto-origen",
+          "title": "CCD - Proyecto Origen",
+        },
+        Object {
+          "centre": "FIB",
+          "date": "2020-06-25 09:50",
+          "description": "El&nbsp;World Data Viz&nbsp;Challenge&nbsp;2020 Barcelona-Kobe&nbsp;es un concurso que tiene como objetivo principal poner de relieve los desafíos de las ciudades inteligentes, invitando la ciudadanía a tratar sus diferentes realidades y casuísticas.",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/world-data-viz-2020.jpg?itok=r3_rxaGn",
+          "link": "https://www.fib.upc.edu/es/noticias/world-data-viz-challenge-2020-barcelona-kobe",
+          "title": "World Data Viz Challenge 2020 Barcelona-Kobe!",
+        },
+        Object {
+          "centre": "FIB",
+          "date": "2020-06-25 08:53",
+          "description": "El Gobierno convoca los Premios Mujer TIC 2020 para reconocer el papel capital de las mujeres en el ámbito tecnológico.",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/premis_donatic-2019_0.jpg?itok=fxqSDSi8",
+          "link": "https://www.fib.upc.edu/es/noticias/premios-dona-tic-2020",
+          "title": "Premios Dona TIC 2020",
+        },
+        Object {
+          "centre": "FIB",
+          "date": "2020-06-23 10:38",
+          "description": "ISF&nbsp;convoca un premio donde se quiere dar valor y difundir el&nbsp;potencial&nbsp;que tiene la ingeniería como herramienta de transformación social en el&nbsp;proceso de consecución, puesta en práctica y reivindicación de los Derechos Humanos en cualquier lugar del mundo.",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/inginieria-sin-fronteras-logo.jpg?itok=nqj6H8dY",
+          "link": "https://www.fib.upc.edu/es/noticias/premio-ingenieria-sin-fronteras-2020",
+          "title": "Premio Ingeniería sin Fronteras 2020",
+        },
+        Object {
+          "centre": "FIB",
+          "date": "2020-06-22 12:13",
+          "description": "La revista digital <em>The conversation</em> ha publicado el artículo \\"La universidad que viene: de la 'docencia remota de emergencia' a la 'presencialidad adaptada'\\".",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/article-the-conversation.jpg?itok=74f0DI9c",
+          "link": "https://www.fib.upc.edu/es/noticias/articulo-la-universidad-que-viene",
+          "title": "Artículo: La universidad que viene",
+        },
+        Object {
+          "centre": "FIB",
+          "date": "2020-06-19 10:58",
+          "description": "A partir de lunes 22 se hará atención presencial&nbsp;del ámbito académico (grados y másteres), convenios de cooperación educativa y soporte a dirección.",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/nova-normalitat-noticia-br.jpg?itok=QnV8alWK",
+          "link": "https://www.fib.upc.edu/es/noticias/serveis-fib-amb-cita-previa",
+          "title": "Serveis FIB amb cita prèvia",
+        },
+        Object {
+          "centre": "FIB",
+          "date": "2020-06-16 10:57",
+          "description": "Application open. The Haute École Ingenierie et de Gestion du Canton de Vaud is offering different internships.",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/logo-haute-ecole.jpg?itok=ZXzs4wy_",
+          "link": "https://www.fib.upc.edu/es/noticias/paid-internships-option-master-thesis-switzerland",
+          "title": "Paid internships with the option of Master Thesis in Switzerland!",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    onRefresh={[Function]}
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+  <ReactNativeModal
+    animationIn="slideInUp"
+    animationInTiming={300}
+    animationOut="slideOutDown"
+    animationOutTiming={300}
+    avoidKeyboard={false}
+    backdropColor="black"
+    backdropOpacity={0.7}
+    backdropTransitionInTiming={300}
+    backdropTransitionOutTiming={300}
+    coverScreen={true}
+    customBackdrop={null}
+    deviceHeight={null}
+    deviceWidth={null}
+    hasBackdrop={true}
+    hideModalContentWhileAnimating={false}
+    isVisible={false}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalShow={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "margin": 0,
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    useNativeDriver={false}
+  >
+    <View
+      style={
+        Object {
+          "elevation": 3,
+        }
+      }
+    >
+      <IconButton
+        backgroundColor="#007AFF"
+        borderRadius={0}
+        color="white"
+        name="close"
+        onPress={[Function]}
+        paddingTop={20}
+        paddingVertical={8}
+        size={26}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fdfdfd",
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <WebView
+        cacheEnabled={true}
+        originWhitelist={
+          Array [
+            "http://*",
+            "https://*",
+          ]
+        }
+        renderLoading={[Function]}
+        scalesPageToFit={false}
+        source={
+          Object {
+            "uri": "",
+          }
+        }
+        startInLoadingState={true}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+        textZoom={100}
+        useSharedProcessPool={true}
+        useWebKit={true}
+      />
+    </View>
+  </ReactNativeModal>
+</View>
+`;
+
+exports[`Testing Noticies component renders a list with one notice 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <FlatList
+    ListEmptyComponent={
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 120,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <ActivityIndicator
+          animating={true}
+          color="#2020ff"
+          hidesWhenStopped={true}
+          size="large"
+        />
+      </View>
+    }
+    data={
+      Array [
+        Object {
+          "centre": "FIB",
+          "date": "2020-07-02 10:02",
+          "description": "Si, si , la FIB estrena rótulos, ahora ya sabrás donde está el B6! :)",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/edifici-b6-retolacio-2020-principal.jpg?itok=355blmIi",
+          "link": "https://www.fib.upc.edu/es/noticias/la-fib-estrena-rotulacion",
+          "title": "La FIB estrena rotulación",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    onRefresh={[Function]}
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+  <ReactNativeModal
+    animationIn="slideInUp"
+    animationInTiming={300}
+    animationOut="slideOutDown"
+    animationOutTiming={300}
+    avoidKeyboard={false}
+    backdropColor="black"
+    backdropOpacity={0.7}
+    backdropTransitionInTiming={300}
+    backdropTransitionOutTiming={300}
+    coverScreen={true}
+    customBackdrop={null}
+    deviceHeight={null}
+    deviceWidth={null}
+    hasBackdrop={true}
+    hideModalContentWhileAnimating={false}
+    isVisible={false}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalShow={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "margin": 0,
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    useNativeDriver={false}
+  >
+    <View
+      style={
+        Object {
+          "elevation": 3,
+        }
+      }
+    >
+      <IconButton
+        backgroundColor="#007AFF"
+        borderRadius={0}
+        color="white"
+        name="close"
+        onPress={[Function]}
+        paddingTop={20}
+        paddingVertical={8}
+        size={26}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fdfdfd",
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <WebView
+        cacheEnabled={true}
+        originWhitelist={
+          Array [
+            "http://*",
+            "https://*",
+          ]
+        }
+        renderLoading={[Function]}
+        scalesPageToFit={false}
+        source={
+          Object {
+            "uri": "",
+          }
+        }
+        startInLoadingState={true}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+        textZoom={100}
+        useSharedProcessPool={true}
+        useWebKit={true}
+      />
+    </View>
+  </ReactNativeModal>
+</View>
+`;
+
+exports[`Testing Noticies component renders an empty list 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <FlatList
+    ListEmptyComponent={
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 120,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <ActivityIndicator
+          animating={true}
+          color="#2020ff"
+          hidesWhenStopped={true}
+          size="large"
+        />
+      </View>
+    }
+    data={Array []}
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    onRefresh={[Function]}
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+  <ReactNativeModal
+    animationIn="slideInUp"
+    animationInTiming={300}
+    animationOut="slideOutDown"
+    animationOutTiming={300}
+    avoidKeyboard={false}
+    backdropColor="black"
+    backdropOpacity={0.7}
+    backdropTransitionInTiming={300}
+    backdropTransitionOutTiming={300}
+    coverScreen={true}
+    customBackdrop={null}
+    deviceHeight={null}
+    deviceWidth={null}
+    hasBackdrop={true}
+    hideModalContentWhileAnimating={false}
+    isVisible={false}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalShow={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "margin": 0,
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    useNativeDriver={false}
+  >
+    <View
+      style={
+        Object {
+          "elevation": 3,
+        }
+      }
+    >
+      <IconButton
+        backgroundColor="#007AFF"
+        borderRadius={0}
+        color="white"
+        name="close"
+        onPress={[Function]}
+        paddingTop={20}
+        paddingVertical={8}
+        size={26}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fdfdfd",
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <WebView
+        cacheEnabled={true}
+        originWhitelist={
+          Array [
+            "http://*",
+            "https://*",
+          ]
+        }
+        renderLoading={[Function]}
+        scalesPageToFit={false}
+        source={
+          Object {
+            "uri": "",
+          }
+        }
+        startInLoadingState={true}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+        textZoom={100}
+        useSharedProcessPool={true}
+        useWebKit={true}
+      />
+    </View>
+  </ReactNativeModal>
+</View>
+`;
+
+exports[`Testing Noticies component renders an open notice 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "flex": 1,
+    }
+  }
+>
+  <FlatList
+    ListEmptyComponent={
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 120,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <ActivityIndicator
+          animating={true}
+          color="#2020ff"
+          hidesWhenStopped={true}
+          size="large"
+        />
+      </View>
+    }
+    data={
+      Array [
+        Object {
+          "centre": "FIB",
+          "date": "2020-07-02 10:02",
+          "description": "Si, si , la FIB estrena rótulos, ahora ya sabrás donde está el B6! :)",
+          "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/edifici-b6-retolacio-2020-principal.jpg?itok=355blmIi",
+          "link": "https://www.fib.upc.edu/es/noticias/la-fib-estrena-rotulacion",
+          "title": "La FIB estrena rotulación",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    onRefresh={[Function]}
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+  <ReactNativeModal
+    animationIn="slideInUp"
+    animationInTiming={300}
+    animationOut="slideOutDown"
+    animationOutTiming={300}
+    avoidKeyboard={false}
+    backdropColor="black"
+    backdropOpacity={0.7}
+    backdropTransitionInTiming={300}
+    backdropTransitionOutTiming={300}
+    coverScreen={true}
+    customBackdrop={null}
+    deviceHeight={null}
+    deviceWidth={null}
+    hasBackdrop={true}
+    hideModalContentWhileAnimating={false}
+    isVisible={true}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalShow={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "margin": 0,
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    useNativeDriver={false}
+  >
+    <View
+      style={
+        Object {
+          "elevation": 3,
+        }
+      }
+    >
+      <IconButton
+        backgroundColor="#007AFF"
+        borderRadius={0}
+        color="white"
+        name="close"
+        onPress={[Function]}
+        paddingTop={20}
+        paddingVertical={8}
+        size={26}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fdfdfd",
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <WebView
+        cacheEnabled={true}
+        originWhitelist={
+          Array [
+            "http://*",
+            "https://*",
+          ]
+        }
+        renderLoading={[Function]}
+        scalesPageToFit={false}
+        source={
+          Object {
+            "uri": "https://www.fib.upc.edu/es/noticias/la-fib-estrena-rotulacion",
+          }
+        }
+        startInLoadingState={true}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+        textZoom={100}
+        useSharedProcessPool={true}
+        useWebKit={true}
+      />
+    </View>
+  </ReactNativeModal>
+</View>
+`;
+
+exports[`Testing getData method from Noticies component extracts and maps the relevant data from a list of unparsed 'noticies' (list size = 1) 1`] = `
+Array [
+  Object {
+    "centre": "FIB",
+    "date": "2020-07-02 10:02",
+    "description": "Si, si , la FIB estrena rótulos, ahora ya sabrás donde está el B6! :)",
+    "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/edifici-b6-retolacio-2020-principal.jpg?itok=355blmIi",
+    "link": "https://www.fib.upc.edu/es/noticias/la-fib-estrena-rotulacion",
+    "title": "La FIB estrena rotulación",
+  },
+]
+`;
+
+exports[`Testing getData method from Noticies component extracts and maps the relevant data from a list of unparsed 'noticies' (list size = 11) 1`] = `
+Array [
+  Object {
+    "centre": "FIB",
+    "date": "2020-07-02 10:02",
+    "description": "Si, si , la FIB estrena rótulos, ahora ya sabrás donde está el B6! :)",
+    "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/edifici-b6-retolacio-2020-principal.jpg?itok=355blmIi",
+    "link": "https://www.fib.upc.edu/es/noticias/la-fib-estrena-rotulacion",
+    "title": "La FIB estrena rotulación",
+  },
+  Object {
+    "centre": "FIB",
+    "date": "2020-07-02 09:34",
+    "description": "El equipo ganador está formado por seis estudiantes de la FIB y ha conseguido el premio por haber sido el más votado durante el concurso.",
+    "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/not-only-flops-icc-team_1.jpg?itok=HiDDJ4Nw",
+    "link": "https://www.fib.upc.edu/es/la-fib/la-facultad/premios-y-reconocimientos/notonlyflops-gana-el-premio-fan-favorite-en-la-isc-2020-student-cluster-competition",
+    "title": "NotOnlyFlops gana el premio Fan Favorite en la ISC 2020 Student Cluster Competition",
+  },
+  Object {
+    "centre": "FIB",
+    "date": "2020-06-30 19:47",
+    "description": "Durante el mes de julio se activará el servicio de correo electrónico de GSuite a las cuentas <a id='ZepGNoFiu' rel='nofollow'></a><script>var ZepGNoFiu = 'studia##pc.edu#ntat.u#nom.co#gnom@e';
+var ZepGNoFiu = ZepGNoFiu.split('#');
+document.getElementById('ZepGNoFiu').innerHTML = ZepGNoFiu[4]+ZepGNoFiu[5]+ZepGNoFiu[0]+ZepGNoFiu[3]+ZepGNoFiu[2]+ZepGNoFiu[1];
+document.getElementById('ZepGNoFiu').href = 'mailto:'+ZepGNoFiu[4]+ZepGNoFiu[5]+ZepGNoFiu[0]+ZepGNoFiu[3]+ZepGNoFiu[2]+ZepGNoFiu[1];
+</script>
+ 
+    .",
+    "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/mailbox.jpg?itok=kGfT37MD",
+    "link": "https://www.fib.upc.edu/es/noticias/activacion-del-correo-de-estudiantes-en-google-suite",
+    "title": "Activación del correo de estudiantes en Google Suite",
+  },
+  Object {
+    "centre": "FIB",
+    "date": "2020-06-30 10:32",
+    "description": "<span>A partir del 6 de julio se hará un mantenimiento a los servicios de aula virtual y virtech.</span>",
+    "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/mant_red.png?itok=mBQGJnQx",
+    "link": "https://www.fib.upc.edu/es/noticias/mantenimiento-de-sistemas-docentes-virtuales-julio-2020",
+    "title": "Mantenimiento de sistemas docentes virtuales, julio 2020",
+  },
+  Object {
+    "centre": "FIB",
+    "date": "2020-06-30 10:20",
+    "description": "Estudiantes de la FIB y el&nbsp;ETSETB&nbsp;junto con algunos profesores de la FIB han participado al proyecto Origen.",
+    "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/ccd-projecte-origen.jpg?itok=IGtQEmKi",
+    "link": "https://www.fib.upc.edu/es/noticias/ccd-proyecto-origen",
+    "title": "CCD - Proyecto Origen",
+  },
+  Object {
+    "centre": "FIB",
+    "date": "2020-06-25 09:50",
+    "description": "El&nbsp;World Data Viz&nbsp;Challenge&nbsp;2020 Barcelona-Kobe&nbsp;es un concurso que tiene como objetivo principal poner de relieve los desafíos de las ciudades inteligentes, invitando la ciudadanía a tratar sus diferentes realidades y casuísticas.",
+    "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/world-data-viz-2020.jpg?itok=r3_rxaGn",
+    "link": "https://www.fib.upc.edu/es/noticias/world-data-viz-challenge-2020-barcelona-kobe",
+    "title": "World Data Viz Challenge 2020 Barcelona-Kobe!",
+  },
+  Object {
+    "centre": "FIB",
+    "date": "2020-06-25 08:53",
+    "description": "El Gobierno convoca los Premios Mujer TIC 2020 para reconocer el papel capital de las mujeres en el ámbito tecnológico.",
+    "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/premis_donatic-2019_0.jpg?itok=fxqSDSi8",
+    "link": "https://www.fib.upc.edu/es/noticias/premios-dona-tic-2020",
+    "title": "Premios Dona TIC 2020",
+  },
+  Object {
+    "centre": "FIB",
+    "date": "2020-06-23 10:38",
+    "description": "ISF&nbsp;convoca un premio donde se quiere dar valor y difundir el&nbsp;potencial&nbsp;que tiene la ingeniería como herramienta de transformación social en el&nbsp;proceso de consecución, puesta en práctica y reivindicación de los Derechos Humanos en cualquier lugar del mundo.",
+    "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/inginieria-sin-fronteras-logo.jpg?itok=nqj6H8dY",
+    "link": "https://www.fib.upc.edu/es/noticias/premio-ingenieria-sin-fronteras-2020",
+    "title": "Premio Ingeniería sin Fronteras 2020",
+  },
+  Object {
+    "centre": "FIB",
+    "date": "2020-06-22 12:13",
+    "description": "La revista digital <em>The conversation</em> ha publicado el artículo \\"La universidad que viene: de la 'docencia remota de emergencia' a la 'presencialidad adaptada'\\".",
+    "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/article-the-conversation.jpg?itok=74f0DI9c",
+    "link": "https://www.fib.upc.edu/es/noticias/articulo-la-universidad-que-viene",
+    "title": "Artículo: La universidad que viene",
+  },
+  Object {
+    "centre": "FIB",
+    "date": "2020-06-19 10:58",
+    "description": "A partir de lunes 22 se hará atención presencial&nbsp;del ámbito académico (grados y másteres), convenios de cooperación educativa y soporte a dirección.",
+    "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/nova-normalitat-noticia-br.jpg?itok=QnV8alWK",
+    "link": "https://www.fib.upc.edu/es/noticias/serveis-fib-amb-cita-previa",
+    "title": "Serveis FIB amb cita prèvia",
+  },
+  Object {
+    "centre": "FIB",
+    "date": "2020-06-16 10:57",
+    "description": "Application open. The Haute École Ingenierie et de Gestion du Canton de Vaud is offering different internships.",
+    "img": "https://www.fib.upc.edu/sites/fib/files/styles/imatge_pantalles/public/logo-haute-ecole.jpg?itok=ZXzs4wy_",
+    "link": "https://www.fib.upc.edu/es/noticias/paid-internships-option-master-thesis-switzerland",
+    "title": "Paid internships with the option of Master Thesis in Switzerland!",
+  },
+]
+`;
+
+exports[`Testing refreshData method from Noticies component fetches new notices and updates the state of redux store 1`] = `Array []`;
+
+exports[`Testing refreshData method from Noticies component fetches new notices with bad response and notifies user 1`] = `
+Array [
+  "Error actualitzant.",
+]
+`;
+
+exports[`Testing renderNoticia method from Noticies component renders the preview of the notice 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fdfdfd",
+      "borderRadius": 5,
+      "borderWidth": 0,
+      "elevation": 3,
+      "margin": 16,
+      "marginBottom": 5,
+      "overflow": "hidden",
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+    testID="1"
+  >
+    <ImageBackground
+      source={
+        Object {
+          "uri": undefined,
+        }
+      }
+      style={
+        Object {
+          "height": 211,
+          "resizeMode": "cover",
+          "width": 718,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "backgroundColor": "#064283",
+            "borderBottomLeftRadius": 10,
+            "elevation": 1,
+            "paddingVertical": 5,
+            "width": 45,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+           undefined 
+        </Text>
+      </View>
+    </ImageBackground>
+    <View
+      style={
+        Object {
+          "borderTopWidth": 0.5,
+          "padding": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#606060",
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "marginBottom": 5,
+          }
+        }
+      />
+      <Text>
+        Application open. The Haute École Ingenierie et de Gestion du Canton de Vaud is offering different internships.
+
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "fontStyle": "italic",
+            "paddingRight": 8,
+            "paddingTop": 3,
+          }
+        }
+      />
+    </View>
+  </TouchableOpacity>
+</View>
+`;
