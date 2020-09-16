@@ -100,7 +100,7 @@ Una vez acumuladas suficientes mejoras en la aplicación, toca publicar una actu
 > git merge <rama_de_la_version_implementada>
 - Si hay conflictos, resuelvelos y realiza un *commit*
 > git tag <nombre_de_version>
-> git push origin master:master
+> git push origin master:master --follow-tags
 ```
 Alternativamente, con *pull requests*, [sigue esta guía](https://developers.sap.com/tutorials/webide-github-merge-pull-request.html).
 
