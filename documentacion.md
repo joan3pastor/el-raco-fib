@@ -91,7 +91,7 @@ Una vez acumuladas suficientes mejoras en la aplicación, toca publicar una actu
 - Actualiza la versión mostrada en la parte inferior derecha del *Drawer* de la aplicación. Puedes encontrar el fichero en `src/components/navigation/Drawer.js`.
 - Genera un *commit* con el título "FIB Release - Version X.X.X"
 ```
-> git commit -m "FIB Release - Version X.X.X"
+> git commit -m "App Release - v.1.X"
 ```
 - Fusiona la rama con la rama principal (*master*) del repositorio remoto y añade un tag de la versión actual:
 ```
@@ -99,7 +99,7 @@ Una vez acumuladas suficientes mejoras en la aplicación, toca publicar una actu
 > git checkout master
 > git merge <rama_de_la_version_implementada>
 - Si hay conflictos, resuelvelos y realiza un *commit*
-> git tag <nombre_de_version>
+> git tag -a <nombre_de_version>
 > git push origin master:master --follow-tags
 ```
 Alternativamente, con *pull requests*, [sigue esta guía](https://developers.sap.com/tutorials/webide-github-merge-pull-request.html).
