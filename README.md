@@ -55,7 +55,7 @@ Encuentra documentación detallada de la aplicación [**aquí**](https://github.
 - Crea una variable de entorno global con el nombre de `ANDROID_HOME` apuntando a Android SDK. `%LOCALAPPDATA%/Android/Sdk/` por defecto.
 - Crea otra variable de entorno con el nombre de `JAVA_HOME` apuntando a Java JDK. `C:/Program Files/Java/jdkX.X.X` por defecto.
 - Instala el paquete de React Native CLI con el siguiente comando `> npm install -g react-native-cli`.
-- Clona el repositorio de la aplicación con `> git clone https://github.com/joan3pastor/pruebaReadme.git`.
+- Clona el repositorio de la aplicación con `> git clone https://github.com/joan3pastor/el-raco-fib.git`.
 - Instala las dependencias ejecutando `> npm install` dentro del repositorio.
 
 Más detalles en la guía de React Native, [***Setting up the development environment***](https://reactnative.dev/docs/environment-setup).
